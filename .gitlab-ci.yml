@@ -7,10 +7,11 @@ pages:
       - node_modules/
   variables:
     PUBLIC_URL: https://2022.igem.wiki/teccem
+
   script:
     - npm install
     - npm install -g svgo
-    - npm run build
+    - CI=false npm run build
     - rm -rf public
     - mv out public
     - cp build/index.html build/404.html

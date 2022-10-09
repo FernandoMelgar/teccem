@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div className="App">
       <Navbar />
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<HomePage />} />
         <Route path="about" element={<LogBookPage />} />
         <Route path="/laboratory" element={<LaboratoryPage />} />
