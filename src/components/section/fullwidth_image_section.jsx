@@ -1,4 +1,3 @@
-import GlassCard from "../glass_card";
 import * as React from "react";
 
 export default function SectionContent(props) {
@@ -36,7 +35,6 @@ export default function SectionContent(props) {
           </p>
         </div>
       </div>
-      <GlassCard title="Pepsico"></GlassCard>
     </div>
   );
 }
