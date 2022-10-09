@@ -10,6 +10,7 @@ pages:
     - npm install -g svgo
     - npm run build
     - rm -rf public
+    - mv out public
     - cp build/index.html build/404.html
     - mv build public
 
