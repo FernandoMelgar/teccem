@@ -1,12 +1,18 @@
-image: python:3.6
+image: node
 
 pages:
-  stage: build
+  stage: deploy
+  cache:
+    paths:
+      - node_modules/
   script:
-  - pip install --no-cache-dir -r dependencies.txt
-  - FLASK_APP=app.py flask freeze
+    - npm install
+    - npm run build
+    - rm -rf public
+    - cp build/index.html build/404.html
+    - mv build public
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - main
+    - main
