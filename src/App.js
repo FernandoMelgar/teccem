@@ -23,7 +23,8 @@ export default function App() {
         
         <Route path="/teccem/attributions" element={<AttributionsPage />} />
         <Route path="/teccem/safety" element={<SafetyPage />}/>
-        <Route path="/collaborations" element={<MapPage />} />
+        
+        <Route path="/teccem/collaborations" element={<MapPage />} />
         <Route path="/teccem" element={<HomePage />} />
         <Route path="about" element={<LogBookPage />} />
         <Route path="/laboratory" element={<LaboratoryPage />} />

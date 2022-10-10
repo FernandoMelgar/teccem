@@ -8,8 +8,8 @@ export default function SafetyProjectPage() {
       <PageWithBackgroundVideo videoUrl={bg1}>
         <div className="relative h-full w-full flex justify-center items-end text-white">
         <div
-            className="absolute hero-overlay p-16 m-auto"
-            style={{ overflow: "scroll", top:0, left:0, width:'70%', height:'70%', bottom: 0, right:0}}
+            className="absolute rounded-md p-16 m-auto"
+            style={{ overflow: "scroll", top:0, left:0, width:'70%', height:'70%', bottom: 0, right:0, backgroundColor: 'rgba(181,94,248,0.40)'}}
           >
             <h1
               className="mb-5 text-6xl font-bold"
