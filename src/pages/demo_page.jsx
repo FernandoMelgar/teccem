@@ -1,5 +1,5 @@
-import Page, {PageWithBackgroundVideo} from "../components/page";
-import bg2Url from "../pages/home/home_bg2.mp4";
+import {PageWithBackgroundVideo} from "../components/page";
+import bg2Url from "../pages/home/bg/home_bg2.mp4"
 import ArrowDownSvg from "./home/components/arrow_down_svg";
 import Modal from "../components/modal";
 import * as React from "react";
