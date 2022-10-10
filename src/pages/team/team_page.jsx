@@ -236,7 +236,6 @@ export default function TeamPage() {
         {professors.map(function (value) {
           return <MemberPhoto name={value.name} imgUrl={value.imgUrl} />;
         })}
-        }
       </div>
     </div>
   );
