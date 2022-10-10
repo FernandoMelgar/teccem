@@ -14,7 +14,7 @@ const data = [
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/brenda-centrocentro.jpg",
   },
   {
-      name: "Jose Antonio Munóz",
+      name: "José Antonio Munóz",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/joseantonio-centrocentro.jpg",
   },
   {
@@ -42,8 +42,8 @@ const data = [
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/anasofia-centrocentro.jpg",
   },
   {
-      name: "Maren I. Marín",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/maren-centrocentro.jpg",
+      name: "Karen I. Marín",
+      imgUrl: "https://static.igem.wiki/teams/4260/wiki/karen-centrocentro.jpg",
   },
   {
       name: "Amanda Spínola",
@@ -128,8 +128,8 @@ const visualsTeam = [
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/selma-centrocentro.jpg",
   },
   {
-      name: "Itzel Ortega",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/itzel-centrocentro.jpg",
+      name: "Itcel Ortega", 
+      imgUrl: "https://static.igem.wiki/teams/4260/wiki/itcel-centrocentro.jpg",
   },
   {
       name: "Minerva Zamudio",
@@ -159,35 +159,35 @@ const visualsTeam = [
 
 const professors = [
   {
-      name: "Dulce V. Mello",
+      name: "PhD. Dulce V. Mello",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/ddulce-centrocentro.jpg",
   },
   {
-      name: "Cesar García",
+      name: "PhD. Cesar García",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/cesar-centrocentro.jpg",
   },
   {
-      name: "Roberto Delgado",
+      name: "M.S Roberto Delgado",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/roberto-centrocentro.jpg",
   },
   {
-      name: "Elías Octavio Gomez",
+      name: "PhD. Elías Octavio Gomez",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/elias-centrocentro.jpg",
   },
   {
-      name: "Carlos E. Gomez",
+      name: "PhD. Carlos E. Gomez",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/carlos-centrocentro.jpg",
   },
   {
-      name: "Ramon E. Rivero",
+      name: "Biologist. Ramon E. Rivero",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/ramon-centrocentro.jpg",
   },
   {
-      name: "Aurora Antonio P.",
+      name: "PhD. Aurora Antonio P.",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/aurora-centrocentro.jpg",
   },
   {
-      name: "Ana Laura Torres",
+      name: "PhD. Ana Laura Torres",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/analaura-centrocentro.jpg",
   },
 

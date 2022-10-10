@@ -10,6 +10,7 @@ import SocialImpactPage from "./pages/social_impact/social_impact_page";
 import NotebookPage from "./pages/notebook/notebook_page";
 import HomePage from "./pages/home/home_page";
 import DemoPage from "./pages/demo_page";
+import MapPage from "./pages/map/map_page";
 
 //  <Route path="/laboratory/safety" element={<SafetyProjectPage/>}/>
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
       <Navbar />
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<HomePage />} />
+        <Route path="/collaborations" element={<MapPage />} />
         <Route path="/teccem" element={<HomePage />} />
         <Route path="about" element={<LogBookPage />} />
         <Route path="/laboratory" element={<LaboratoryPage />} />

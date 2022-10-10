@@ -4,15 +4,15 @@ export default function Navbar() {
     return (
         <div className="absolute navbar bg-base-100 z-10 bg-transparent hover:bg-white hover:bg-opacity-10 " >
             <ul className="flex justify-between inline-block text-white  text-lg w-full px-40 menu menu-horizontal">
-                <_Option main={{to: "/", text: "Home"}}/>
-                <_Option
+                <Option main={{to: "/teccem", text: "Home"}}/>
+                <Option
                     main={{to: "/laboratory", text: "Laboratory"}}
                     submenu={[
                         {to: "/laboratory/notebook", text: "Notebook"},
                         {to: "/laboratory/safety", text: "Safety"},
                     ]}>
-                </_Option>
-                <_Option
+                </Option>
+                <Option
                     main={{to: "/social-impact", text: "Social Impact"}}
                     submenu={[
                         {to: "/human-practices", text: "Integrated Human Practices"},
@@ -20,9 +20,9 @@ export default function Navbar() {
                         {to: "/communication", text: "Communication"},
                         {to: "/sustainable", text: "Sustainable"},
                     ]}>
-                </_Option>
-                <_Option main={{to: "/team", text: "Team"}}/>
-                <_Option main={{to: "/awards", text: "awards"}}/>
+                </Option>
+                <Option main={{to: "/team", text: "Team"}}/>
+                <Option main={{to: "/awards", text: "awards"}}/>
             </ul>
         </div>
     );
@@ -37,7 +37,7 @@ function ArrowDownSvg() {
     );
 }
 
-function _Option(props) {
+function Option(props) {
     if (props.submenu == null || props.submenu.isEmpty) {
         return (
             <li>
