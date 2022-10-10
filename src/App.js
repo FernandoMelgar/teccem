@@ -18,6 +18,7 @@ export default function App() {
       <Navbar />
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<HomePage />} />
+        <Route path="/teccem" element={<HomePage />} />
         <Route path="about" element={<LogBookPage />} />
         <Route path="/laboratory" element={<LaboratoryPage />} />
         <Route path="/team" element={<TeamPage />} />
