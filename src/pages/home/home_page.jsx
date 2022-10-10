@@ -4,8 +4,8 @@ import EndocrineDisruptiveSection from "./sections/endocrine_disruptive_section"
 import ProblemExplanationSection from "./sections/problem_explanation_section";
 import OurMissionSection from "./sections/our_mission_section";
 import { PageWithBackgroundVideo } from "../../components/page";
-import bg1 from "./home_bg1.mp4";
-import bg2 from "./home_bg2.mp4";
+import bg1 from "./bg/home_bg1.mp4";
+import bg2 from './bg/home_bg2.mp4';
 
 export default function HomePage() {
   return (
