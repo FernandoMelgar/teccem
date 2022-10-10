@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import LogBookPage from "./pages/laboratory/logbook_page";
-import SafetyProjectPage from "./pages/safety_project/safety_project_page";
+import SafetyPage from "./pages/safety_and_security/safety_and_security_page";
 import Navbar from "./components/navbar";
 import IgemFooter from "./sections/footer_section";
 import LaboratoryPage from "./pages/laboratory/laboratory_page";
@@ -11,6 +11,7 @@ import NotebookPage from "./pages/notebook/notebook_page";
 import HomePage from "./pages/home/home_page";
 import DemoPage from "./pages/demo_page";
 import MapPage from "./pages/map/map_page";
+import AttributionsPage from "./pages/attributions/attributions_page";
 
 //  <Route path="/laboratory/safety" element={<SafetyProjectPage/>}/>
 export default function App() {
@@ -19,6 +20,9 @@ export default function App() {
       <Navbar />
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<HomePage />} />
+        
+        <Route path="/teccem/attributions" element={<AttributionsPage />} />
+        <Route path="/teccem/safety" element={<SafetyPage />}/>
         <Route path="/collaborations" element={<MapPage />} />
         <Route path="/teccem" element={<HomePage />} />
         <Route path="about" element={<LogBookPage />} />
