@@ -39,9 +39,6 @@ export default function HomePage() {
           </div>
         </div>
       </PageWithBackgroundVideo>
-      <EndocrineDisruptiveSection />
-      <ProblemExplanationSection />
-      <OurMissionSection />
     </div>
   );
 }
