@@ -1,15 +1,23 @@
-import Card from "./card";
 import "./CardContainer.css";
+import Card from "./card";
+import { cardData } from "../componentData/CardData";
+import Carousel from "../carousel";
 
-export default function CardContainer(props) {
+const cardDataArray = cardData;
+
+export default function CardContainer() {
   return (
     <div className="multiple-card-container">
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
+      {cardDataArray.map((item, index) => {
+        return (
+          <Card
+            title={item.title}
+            image={item.image}
+            description={item.description}
+            index={index}
+          ></Card>
+        );
+      })}
     </div>
   );
 }

@@ -1,6 +1,10 @@
 .multiple-card-container {
   width: 1200px;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*display: grid;
   grid-template-columns: 370px 370px 370px;
   justify-content: space-between;
+  align-content: center;*/
 }

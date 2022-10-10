@@ -1,25 +1,18 @@
 import "./Card.css";
 
-function Card({ cardElements }) {
+function Card(props) {
+  console.log("creating a card");
   return (
     <div className="card-container">
       <div className="image-container">
-        <img
-          src={
-            "https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/totalpeopledisease.png"
-          }
-        ></img>
+        <img src={props.image}></img>
       </div>
       <div className="card-content">
         <div className="card-title">
-          <h3>An IGEM Image</h3>
+          <h3>{props.title}</h3>
         </div>
         <div className="card-description">
-          <p>
-            How I would like to get this done!How I would like to get this
-            done!How I would like to get this done!How I would like to get this
-            done!How I would like to get this done!
-          </p>
+          <p>{props.shortDescription}</p>
         </div>
       </div>
 
