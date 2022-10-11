@@ -1,3 +1,9 @@
+fetch("./notebook_ativities.json")
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => console.log(data));
+
 const months = [
   {
     month: "JANUARY",

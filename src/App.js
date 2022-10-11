@@ -14,32 +14,169 @@ import MapPage from "./pages/map/map_page";
 import AttributionsPage from "./pages/attributions/attributions_page";
 import HumanPracticesPage from "./pages/social_impact/human_practices_page";
 import CollaborationsPage from "./pages/collaborations/collaborations_page";
+import NotFoundPage from "./components/not_found";
+import { Footer } from "react-daisyui";
 
 //  <Route path="/laboratory/safety" element={<SafetyProjectPage/>}/>
 export default function App() {
   return (
     <div className="App">
-      <Navbar />
       <Routes basename={process.env.PUBLIC_URL}>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/teccem" element={<HomePage />} />
-        <Route path="/teccem/attributions" element={<AttributionsPage />} />
-        <Route path="/teccem/safety" element={<SafetyProjectPage />} />
-        <Route path="/teccem/human-practices" element={<HumanPracticesPage />} />
-        <Route path="/teccem/collaborations" element={<CollaborationsPage />} />
-        
-        <Route path="about" element={<LogBookPage />} />
-        <Route path="/laboratory" element={<LaboratoryPage />} />
-        <Route path="/team" element={<TeamPage />} />
-        <Route path="/social-impact" element={<SocialImpactPage />} />
-        <Route path="/laboratory/notebook" element={<NotebookPage />} />
+        <Route
+          path="/"
+          element={
+            <div>
+              <Navbar /> <HomePage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/teccem"
+          element={
+            <div>
+              <Navbar />
+              <HomePage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/teccem/attributions"
+          element={
+            <div>
+              <Navbar />
+              <AttributionsPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/teccem/safety"
+          element={
+            <div>
+              <Navbar />
+              <SafetyProjectPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/teccem/human-practices"
+          element={
+            <div>
+              <Navbar />
+              <HumanPracticesPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/teccem/collaborations"
+          element={
+            <div>
+              <Navbar />
+              <CollaborationsPage />
+              <IgemFooter />
+            </div>
+          }
+        />
 
-        <Route path="/communication" element={<SocialImpactPage />} />
-        <Route path="/education" element={<SocialImpactPage />} />
-        <Route path="/sustainable" element={<SocialImpactPage />} />
+        <Route
+          path="about"
+          element={
+            <div>
+              <Navbar />
+              <LogBookPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/laboratory"
+          element={
+            <div>
+              <Navbar />
+              <LaboratoryPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/team"
+          element={
+            <div>
+              <Navbar />
+              <TeamPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/social-impact"
+          element={
+            <div>
+              <Navbar />
+              <SocialImpactPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/laboratory/notebook"
+          element={
+            <div>
+              <Navbar />
+              <NotebookPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+
+        <Route
+          path="/communication"
+          element={
+            <div>
+              <Navbar />
+              <SocialImpactPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/human-practices"
+          element={
+            <div>
+              <Navbar />
+              <SocialImpactPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/education"
+          element={
+            <div>
+              <Navbar />
+              <SocialImpactPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/sustainable"
+          element={
+            <div>
+              <Navbar />
+              <SocialImpactPage />
+              <IgemFooter />
+            </div>
+          }
+        />
         <Route path="/demo" element={<DemoPage />} />
+        <Route path="/demo" element={<DemoPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
-      <IgemFooter />
     </div>
   );
 }
