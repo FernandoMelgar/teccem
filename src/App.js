@@ -12,6 +12,8 @@ import HomePage from "./pages/home/home_page";
 import DemoPage from "./pages/demo_page";
 import MapPage from "./pages/map/map_page";
 import AttributionsPage from "./pages/attributions/attributions_page";
+import HumanPracticesPage from "./pages/social_impact/human_practices_page";
+import CollaborationsPage from "./pages/collaborations/collaborations_page";
 
 //  <Route path="/laboratory/safety" element={<SafetyProjectPage/>}/>
 export default function App() {
@@ -20,12 +22,13 @@ export default function App() {
       <Navbar />
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<HomePage />} />
-
+        <Route path="/teccem" element={<HomePage />} />
         <Route path="/teccem/attributions" element={<AttributionsPage />} />
         <Route path="/teccem/safety" element={<SafetyProjectPage />} />
-
         <Route path="/teccem/collaborations" element={<MapPage />} />
-        <Route path="/teccem" element={<HomePage />} />
+        <Route path="/teccem/human-practices" element={<HumanPracticesPage />} />
+        <Route path="/teccem/collaborations" element={<CollaborationsPage />} />
+        
         <Route path="about" element={<LogBookPage />} />
         <Route path="/laboratory" element={<LaboratoryPage />} />
         <Route path="/team" element={<TeamPage />} />
