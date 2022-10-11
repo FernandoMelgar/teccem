@@ -35,7 +35,6 @@ export default function App() {
         <Route path="/laboratory/notebook" element={<NotebookPage />} />
 
         <Route path="/communication" element={<SocialImpactPage />} />
-        <Route path="/human-practices" element={<SocialImpactPage />} />
         <Route path="/education" element={<SocialImpactPage />} />
         <Route path="/sustainable" element={<SocialImpactPage />} />
         <Route path="/demo" element={<DemoPage />} />
