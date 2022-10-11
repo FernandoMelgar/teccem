@@ -1,0 +1,15 @@
+.Description {
+  font-family: Cano;
+  font-size: 80px;
+  color: #ffccd5;
+  font-size: 600;
+}
+
+.Description-paragraph {
+  font-family: Montserrat;
+  font-size: 22px;
+  color: white;
+  text-align: justify;
+  font-weight: 600;
+  margin: 20px;
+}

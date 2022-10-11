@@ -1,7 +1,6 @@
 import "./Card.css";
 
 function Card(props) {
-  console.log("creating a card");
   return (
     <div className="card-container">
       <div className="image-container">
