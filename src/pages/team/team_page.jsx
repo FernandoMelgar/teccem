@@ -153,7 +153,7 @@ const visualsTeam = [
   },
   {
       name: "Daniela Mejía",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/daniela-centrocentro.jpg",
+      imgUrl: "https://static.igem.wiki/teams/4260/wiki/dani-team.jpg",
   },
 ]
 
