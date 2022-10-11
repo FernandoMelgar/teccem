@@ -14,8 +14,8 @@ const data = [
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/brenda-centrocentro.jpg",
   },
   {
-      name: "José Antonio Munóz",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/joseantonio-centrocentro.jpg",
+      name: "José Antonio Muñoz",
+      imgUrl: "https://static.igem.wiki/teams/4260/wiki/antonio-mu-oz-team.jpg",
   },
   {
       name: "Sergio García",
@@ -95,7 +95,7 @@ const data = [
   },
   {
       name: "Ana Paula Martínez",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/anapaula-centrocentro.jpg",
+      imgUrl: "https://static.igem.wiki/teams/4260/wiki/anapau-team.jpg",
   },
   {   
       name: "José Gerardo Altamirano",
