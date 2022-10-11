@@ -7,18 +7,7 @@ export default function Page(props) {
 export function PageWithBackgroundVideo(props) {
   return (
     <div className="hero">
-      <video
-        className="videoTag full-video-bg"
-        autoPlay
-        loop
-        muted
-        style={{
-          width: "100vw",
-          zIndex: -1,
-        }}
-      >
-        <source src={props.videoUrl} type="video/mp4" />
-      </video>
+      <img src={props.gifURL} style={{ width: "100vw" }} />
       <div className="w-full h-full">{props.children}</div>
     </div>
   );
