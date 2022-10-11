@@ -158,7 +158,15 @@ const visualsTeam = [
 ]
 
 const professors = [
-  {
+    {
+        name: "PhD. Ana Laura Torres",
+        imgUrl: "https://static.igem.wiki/teams/4260/wiki/analaura-centrocentro.jpg",
+    },
+    {
+        name: "PhD. Aurora Antonio P.",
+        imgUrl: "https://static.igem.wiki/teams/4260/wiki/aurora-centrocentro.jpg",
+    },
+    {
       name: "PhD. Dulce V. Melo",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/ddulce-centrocentro.jpg",
   },
@@ -182,14 +190,10 @@ const professors = [
       name: "Biol. Ramón E. Rivero",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/ramon-centrocentro.jpg",
   },
-  {
-      name: "PhD. Aurora Antonio P.",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/aurora-centrocentro.jpg",
-  },
-  {
-      name: "PhD. Ana Laura Torres",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/analaura-centrocentro.jpg",
-  },
+    {
+    name: "PhD. María Guadalupe Pérez L.",
+    imgUrl: "https://static.igem.wiki/teams/4260/wiki/team-lupita-proffessor.jpeg",
+},
 
 ];
 
