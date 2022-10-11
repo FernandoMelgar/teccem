@@ -1,17 +1,28 @@
 import Modal from "../../components/modal";
 import { PageWithBackgroundVideo } from "../../components/page";
 import bg1 from "./bg/safety_bg1.mp4";
-import bg2 from "./bg/safety_bg2.mp4";
-
 
 export default function SafetyProjectPage() {
   return (
     <div>
-      <PageWithBackgroundVideo videoUrl={bg1}>
+      <PageWithBackgroundVideo
+        gifURL={
+          "https://static.igem.wiki/teams/4260/wiki/safety-project/1-safety-fondosolution-2.gif"
+        }
+      >
         <div className="relative h-full w-full flex justify-center items-end text-white">
-        <div
+          <div
             className="absolute rounded-xs p-16 m-auto"
-            style={{ overflow: "scroll", top:0, left:0, width:'70%', height:'70%', bottom: 0, right:0, backgroundColor: 'rgba(69, 41, 107,0.70)'}}
+            style={{
+              overflow: "scroll",
+              top: 0,
+              left: 0,
+              width: "70%",
+              height: "70%",
+              bottom: 0,
+              right: 0,
+              backgroundColor: "rgba(69, 41, 107,0.70)",
+            }}
           >
             <h1
               className="mb-5 text-6xl font-bold"
@@ -136,11 +147,24 @@ export default function SafetyProjectPage() {
           </p>
         </Modal>
       </PageWithBackgroundVideo>
-      <PageWithBackgroundVideo videoUrl={bg1}>
+      <PageWithBackgroundVideo
+        gifURL={
+          "https://static.igem.wiki/teams/4260/wiki/safety-project/2-safety-fondodesign-1.gif"
+        }
+      >
         <div className="relative h-full w-full flex justify-center items-end text-white">
-        <div
+          <div
             className="absolute rounded-xs p-16 m-auto"
-            style={{ overflow: "scroll", top:0, left:0, width:'70%', height:'70%', bottom: 0, right:0, backgroundColor: 'rgba(69, 41, 107,0.70)'}}
+            style={{
+              overflow: "scroll",
+              top: 0,
+              left: 0,
+              width: "70%",
+              height: "70%",
+              bottom: 0,
+              right: 0,
+              backgroundColor: "rgba(69, 41, 107,0.70)",
+            }}
           >
             <h1
               className="mb-5 text-6xl font-bold"
@@ -250,7 +274,6 @@ export default function SafetyProjectPage() {
           </div>
         </div>
       </PageWithBackgroundVideo>
-      
     </div>
   );
 }

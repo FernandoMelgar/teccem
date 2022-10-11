@@ -1,12 +1,6 @@
 import * as React from "react";
 import ArrowDownSvg from "./components/arrow_down_svg";
 import { PageWithBackgroundVideo } from "../../components/page";
-import bg1 from "./bg/home_bg1.mp4";
-import bg2 from "./bg/home_bg2.mp4";
-import bg3 from "./bg/home_bg3.mp4";
-import bg4 from "./bg/home_bg4.mp4";
-import bg5 from "./bg/home_bg5.mp4";
-import bg6 from "./bg/home_bg6.mp4";
 import { Link } from "react-router-dom";
 export default function HomePage() {
   return (

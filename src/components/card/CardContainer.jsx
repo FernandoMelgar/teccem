@@ -1,7 +1,6 @@
 import "./CardContainer.css";
 import Card from "./card";
 import { cardData } from "../componentData/CardData";
-import Carousel from "../carousel";
 
 const cardDataArray = cardData;
 
