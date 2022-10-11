@@ -29,14 +29,15 @@ export default function CollaborationsPage() {
       </p>
 
       <div
-        className="p block max-w-7xl text-lg text-white p-4 mb-10 rounded-lg m-auto"
+        className="p block max-w-xl text-lg text-white p-4 mb-10 rounded-lg m-auto"
         style={{
           backgroundColor: "rgba(94, 188, 255,.4)",
           borderColor: "rgb(135, 255, 255)",
           borderWidth: 2,
         }}
       >
-        <h2 className="h2">instrucctions</h2>
+        <h2 className="h2 font-bold">Instrucctions</h2>
+        <p>Click on the countries to show more info!</p>
       </div>
       <img
         className="m-auto"

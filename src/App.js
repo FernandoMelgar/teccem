@@ -25,7 +25,6 @@ export default function App() {
         <Route path="/teccem" element={<HomePage />} />
         <Route path="/teccem/attributions" element={<AttributionsPage />} />
         <Route path="/teccem/safety" element={<SafetyProjectPage />} />
-        <Route path="/teccem/collaborations" element={<MapPage />} />
         <Route path="/teccem/human-practices" element={<HumanPracticesPage />} />
         <Route path="/teccem/collaborations" element={<CollaborationsPage />} />
         

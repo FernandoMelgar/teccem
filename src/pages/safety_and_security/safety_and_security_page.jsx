@@ -1,6 +1,5 @@
 import Modal from "../../components/modal";
 import { PageWithBackgroundVideo } from "../../components/page";
-import bg1 from "./bg/safety_bg1.mp4";
 
 export default function SafetyProjectPage() {
   return (
