@@ -130,10 +130,7 @@ export default function NotebookPage() {
                 className="block p-2 rounded-sm mt-4 mb-2"
                 style={{ backgroundColor: "rgba(75,230,255,.5)" }}
               >
-                <h1 className="text-6xl text-white content-top">
-                  {" "}
-                  {it.month} >
-                </h1>
+                <h1 className="text-6xl text-white content-top"> {it.month}</h1>
               </div>
               <div style={{ display: "flex", flexWrap: "wrap" }}>
                 {it.data.map(function (data) {
