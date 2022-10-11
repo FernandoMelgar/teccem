@@ -2,7 +2,7 @@ import MemberPhoto from "./components/member_photo";
 
 const data = [
   {
-      name: "Claudia A. Garcia",
+      name: "Claudia A. García",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/claudia-centrocentro.jpg",
   },
   {
@@ -10,7 +10,7 @@ const data = [
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/yaros-centrocentro.jpg",
   },
   {
-      name: "Brenda Jimenez",
+      name: "Brenda Jiménez",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/brenda-centrocentro.jpg",
   },
   {
@@ -22,7 +22,7 @@ const data = [
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/sergio-centrocentro.jpg",
   },
   {
-      name: "Andrea de los santos",
+      name: "Andrea de los Santos",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/andrea-centrocentro.jpg",
   },
   {
@@ -59,14 +59,14 @@ const data = [
   },
   {
       name: "Valeria Torres",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/valeria-centrocentro.jpg",
+      imgUrl: "https://static.igem.wiki/teams/4260/wiki/valeria-torres-team.jpg",
   },
   {
-      name: "Isabel Herández",
+      name: "Isabel Hernández",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/isa-centrocentro.jpg",
   },
   {
-      name: "Hector A. Murro",
+      name: "Héctor A. Munro",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/hector-centrocentro.jpg",
   },
   {
@@ -102,8 +102,8 @@ const data = [
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/jerry-centrocentro.jpg",
   },
   {
-      name: "Salvador Chavez",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/salvador-centrocentro.jpg",
+      name: "Salvador Chávez",
+      imgUrl: "https://static.igem.wiki/teams/4260/wiki/salvador-chavez-team.jpg",
   },
   {
       name: "Mirelle Culebro",
@@ -111,7 +111,7 @@ const data = [
   },
   {
       name: "Arturo Ortíz",
-      imgUrl: "https://static.igem.wiki/teams/4260/wiki/arturo-centrocentro.jpg",
+      imgUrl: "https://static.igem.wiki/teams/4260/wiki/arturo-ortiz-team.jpg",
   }, {
       name: "Rodrigo Labastida",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/rodrigo-centrocentro.jpg",
@@ -159,7 +159,7 @@ const visualsTeam = [
 
 const professors = [
   {
-      name: "PhD. Dulce V. Mello",
+      name: "PhD. Dulce V. Melo",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/ddulce-centrocentro.jpg",
   },
   {
@@ -171,15 +171,15 @@ const professors = [
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/roberto-centrocentro.jpg",
   },
   {
-      name: "PhD. Elías Octavio Gomez",
+      name: "PhD. Elías Octavio Gómez",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/elias-centrocentro.jpg",
   },
   {
-      name: "PhD. Carlos E. Gomez",
+      name: "PhD. Carlos E. Gómez",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/carlos-centrocentro.jpg",
   },
   {
-      name: "Biologist. Ramon E. Rivero",
+      name: "Biol. Ramón E. Rivero",
       imgUrl: "https://static.igem.wiki/teams/4260/wiki/ramon-centrocentro.jpg",
   },
   {
