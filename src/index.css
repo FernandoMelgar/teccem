@@ -43,7 +43,7 @@ body {
 .carouselimg-title {
   font-family: "Cano", sans-serif;
   font-size: 30px;
-  color: white;
+  color: black;
   position: relative;
   text-align: center;
   justify-content: center;
@@ -51,28 +51,42 @@ body {
 }
 
 .image {
-  width: 500px;
+  width: auto;
   height: 300px;
   border-radius: 10px;
+  float: left;
+  margin: 20px;
 }
 
 .right-arrow {
   position: absolute;
   top: 50%;
-  right: 32px;
+  right: 23%;
   font-size: 3rem;
-  color: #fff;
+  color: purple;
   z-index: 10;
   cursor: pointer;
   user-select: none;
+}
+.carousel-description {
+  position: relative;
+  color: black;
+  font: Montserrat;
+  font-size: 18px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 260px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .left-arrow {
   position: absolute;
   top: 50%;
-  left: 32px;
+  left: 25%;
   font-size: 3rem;
-  color: #fff;
+  color: purple;
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -168,13 +182,11 @@ h1 {
   font-family: "Cano", serif;
 }
 
-
-
 .cano {
-  font-family: 'Cano', serif;
+  font-family: "Cano", serif;
 }
 
-.h3  {
+.h3 {
   margin-top: 10px;
   font-weight: bold;
   text-align: start;
@@ -205,7 +217,7 @@ h1 {
 }
 
 .clickable {
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .clickable:hover {
@@ -214,5 +226,4 @@ h1 {
 
 .clickable:active {
   transform: scale(1);
-
 }

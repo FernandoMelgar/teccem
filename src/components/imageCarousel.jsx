@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { safetyData } from "./componentData/SafetyCarouselData";
+import { comData } from "./componentData/comData";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 export default function ImageCarousel() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const length = safetyData.length;
+  const length = comData.length;
   console.log(length);
 
   const prevSlide = () => {
@@ -18,7 +18,7 @@ export default function ImageCarousel() {
     );
   };
 
-  if (!Array.isArray(safetyData) || safetyData.length <= 0) {
+  if (!Array.isArray(comData) || comData.length <= 0) {
     return null;
   }
 
@@ -27,7 +27,7 @@ export default function ImageCarousel() {
       <section className="carousel">
         <FaArrowLeft className="left-arrow" onClick={prevSlide} />
         <FaArrowRight className="right-arrow" onClick={nextSlide} />
-        {safetyData.map((item, index) => {
+        {comData.map((item, index) => {
           return (
             <div
               className={index === currentImageIndex ? "slide-active" : "slide"}
@@ -36,7 +36,8 @@ export default function ImageCarousel() {
               {index === currentImageIndex && (
                 <div>
                   <div className="carouselimg-title">{item.title}</div>
-                  <img src={item.image} alt="Dummy stuff" className="image" />
+                  <img src={item.image} alt="item.title" className="image" />
+                  <p className="carousel-description">{item.description}</p>
                 </div>
               )}
             </div>
