@@ -113,6 +113,53 @@ export default function App() {
             </div>
           }
         />
+
+
+
+
+
+        <Route path="/teccem/education" element={<div>
+          <Navbar />
+          <EducationPage />
+          <IgemFooter />
+        </div>} />
+        <Route path="/teccem/hardware" element={<div>
+          <Navbar />
+          <HardwarePage />
+          <IgemFooter />
+        </div>} />
+        <Route path="/teccem/software" element={<div>
+          <Navbar />
+          <SoftwarePage />
+          <IgemFooter />
+        </div>} />
+        <Route path="/teccem/model" element={<div>
+          <Navbar />
+          <ModelPage />
+          <IgemFooter />
+        </div>} />
+        <Route path="/teccem/design" element={<div>
+          <Navbar />
+          <DesignPage />
+          <IgemFooter />
+        </div>} />
+
+
+        <Route path="/teccem/implementation" element={<div>
+          <Navbar />
+          <ImplementationPage />
+          <IgemFooter />
+        </div>} />
+        <Route path="/teccem/results" element={<div>
+          <Navbar />
+          <ResultsPage />
+          <IgemFooter />
+        </div>} />
+        <Route path="/teccem/measurement" element={<div>
+          <Navbar />
+          <MeasurementPage />
+          <IgemFooter />
+        </div>} />
         <Route
           path="/teccem/proof-of-concept"
           element={
