@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { safetyData } from "./componentData/SafetyCarouselData";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-const Carousel = () => {
+export default function ImageCarousel() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const length = safetyData.length;
   console.log(length);
@@ -45,6 +45,4 @@ const Carousel = () => {
       </section>
     </>
   );
-};
-
-export default Carousel;
+}
