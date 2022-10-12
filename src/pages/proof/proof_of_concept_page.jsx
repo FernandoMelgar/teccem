@@ -12,7 +12,7 @@ export default function ProofOfConceptPage() {
         <h1 className="text-6xl text-white text-center">PROOF OF CONCEPT</h1>
         <div
           className="max-w-4xl m-auto p-8 mt-8 rounded-md text-white"
-          style={{ backgroundColor: "rgba(199, 48, 169,.80git )" }}
+          style={{ backgroundColor: "rgba(199, 48, 169,.80)" }}
         >
           <h3 className="h3">overview</h3>
           <p className="p">
