@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import bg1 from "./bg/Home_bg1.mp4";
 import bg2 from "./bg/Home_bg2.mp4";
 import bg3 from "./bg/Home_bg3.mp4";
-import bg4 from "./bg/Homebg4.mp4";
+import bg4 from "./bg/Home_bg4.mp4";
 import bg5 from "./bg/Homebg5.mp4";
-import bg6 from "./bg/Homebg6.mp4";
+import bg6 from "./bg/Home_bg6.mp4";
 
 export default function HomePage() {
   return (

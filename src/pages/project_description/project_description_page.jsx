@@ -15,10 +15,17 @@ export default function ProjectDescriptionPage() {
         <div className="h-full w-full">
           <div className="py-20 flex flex-col items-center justify-between h-full">
             <h1 className="text-6xl text-white">Project Description</h1>
-            <div
-              className="bg-black"
-              style={{ width: "300px", height: "250px" }}
-            ></div>
+            <div>
+              <iframe
+                title="TecCEM: Hydro Defense: Defending crops against disruptors (2022) - Project Promotion [English]"
+                width="560"
+                height="315"
+                src="https://video.igem.org/videos/embed/19f8f6ea-3e3e-4773-a94f-fe34f3e954c8"
+                frameborder="0"
+                allowfullscreen=""
+                sandbox="allow-same-origin allow-scripts allow-popups"
+              ></iframe>
+            </div>
             <div className="flex justify-around w-full px-16">
               <div className="  px-8 py-4 rounded-xl">
                 <img
