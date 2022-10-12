@@ -34,7 +34,6 @@ export default function App() {
         <Route path="/teccem/engineering" element={<EngineeringPage />} />
         <Route path="/teccem/education" element={<EducationPage />} />
         <Route path="/teccem/hardware" element={<HardwarePage />} />
-        
         <Route path="about" element={<LogBookPage />} />
         <Route path="/laboratory" element={<LaboratoryPage />} />
         <Route path="/team" element={<TeamPage />} />
