@@ -21,6 +21,7 @@ import HardwarePage from "./pages/engineering/hardware_biosensor";
 import ContributionsPage from "./pages/team/contributions_page";
 import Communication from "./pages/communication/communication";
 import ProofOfConceptPage from "./pages/proof/proof_of_concept_page";
+import SoftwarePage from "./pages/engineering/software_biosensor";
 
 export default function App() {
   return (
