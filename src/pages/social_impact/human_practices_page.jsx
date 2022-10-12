@@ -54,7 +54,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="We collected opinions"
           title="We collected opinions"
-          href=""
+          onClick={() => {
+            document.getElementById("collected_opinions_modal").click();
+          }}
           coords="731,339,998,389"
           shape="rect"
         />
@@ -62,7 +64,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="We supported initiative"
           title="We supported initiative"
-          href=""
+          onClick={() => {
+            document.getElementById("supportedinitiative").click();
+          }}
           coords="1018,297,1304,380"
           shape="rect"
         />
@@ -70,7 +74,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="We interviewed citizens"
           title="We interviewed citizens"
-          href=""
+          onClick={() => {
+            document.getElementById("weinterviewedcitizens").click();
+          }}
           coords="940,395,1159,431"
           shape="rect"
         />
@@ -78,7 +84,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="We interviewed farmers"
           title="We interviewed farmers"
-          href=""
+          onClick={() => {
+            document.getElementById("weinterviewedfarmers").click();
+          }}
           coords="951,464,1155,509"
           shape="rect"
         />
@@ -86,7 +94,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="We seeked to create"
           title="We seeked to create"
-          href=""
+          onClick={() => {
+            document.getElementById("weseeked").click();
+          }}
           coords="1181,482,1338,539"
           shape="rect"
         />
@@ -94,7 +104,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Dr. Edson Estrada told"
           title="Dr. Edson Estrada told"
-          href=""
+          onClick={() => {
+            document.getElementById("edson").click();
+          }}
           coords="97,467,393,526"
           shape="rect"
         />
@@ -102,7 +114,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="We contributed to conserv"
           title="We contributed to conserv"
-          href=""
+          onClick={() => {
+            document.getElementById("conservationlake").click();
+          }}
           coords="428,440,615,503"
           shape="rect"
         />
@@ -110,7 +124,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Opinions from Master Rosa"
           title="Opinions from Master Rosa"
-          href=""
+          onClick={() => {
+            document.getElementById("masterrosa").click();
+          }}
           coords="721,522,1071,607"
           shape="rect"
         />
@@ -118,7 +134,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="We interviewed experts"
           title="We interviewed experts"
-          href=""
+          onClick={() => {
+            document.getElementById("experts").click();
+          }}
           coords="406,602,620,667"
           shape="rect"
         />
@@ -126,7 +144,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Concluded by developing"
           title="Concluded by developing"
-          href=""
+          onClick={() => {
+            document.getElementById("concludeddeveloping").click();
+          }}
           coords="103,661,399,765"
           shape="rect"
         />
@@ -134,7 +154,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="With the opinion of experts"
           title="With the opinion of experts"
-          href=""
+          onClick={() => {
+            document.getElementById("opinionexperts").click();
+          }}
           coords="1010,679,1336,787"
           shape="rect"
         />
@@ -142,7 +164,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Recieved help from the"
           title="Recieved help from the"
-          href=""
+          onClick={() => {
+            document.getElementById("oscar").click();
+          }}
           coords="345,782,665,889"
           shape="rect"
         />
@@ -150,7 +174,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Concluded through an "
           title="Concluded through an "
-          href=""
+          onClick={() => {
+            document.getElementById("economicmodel").click();
+          }}
           coords="679,801,1054,908"
           shape="rect"
         />
@@ -309,7 +335,7 @@ export default function HumanPracticesPage() {
       </ModalGlass>
       <ModalGlass modalId="no_regular_laws_modal">
         <div className="text-white">
-            <h3 className="h3">There are no regulation or laws</h3>
+          <h3 className="h3">There are no regulation or laws</h3>
           <p className="p">
             The panorama of the regulation of EDCs in Mexico is just beginning,
             in 2021, article 25 of the Solid Waste Law of Mexico City came into
@@ -345,6 +371,226 @@ export default function HumanPracticesPage() {
             quality of irrigation water, which besides causing terminal
             illnesses, affects agricultural production, which is the main
             primary activity in Mexico.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="collected_opinions_modal">
+        <div className="text-white">
+          <h3 className="h3">
+            We collected opinions from politicians about the problem
+          </h3>
+          <p className="p">
+            We had a meeting with the advisor coordinator of the Morena
+            political party, Santos González. We presented our project to him,
+            obtained comments and more information about the steps that are
+            necessary to create a law initiative. From this meeting we also
+            obtained contact with the Senator from Mexico, Dr. Ricardo Ávila
+            Monreal, who also reviewed our project. Given their observations, we
+            conclude that the problem, despite being of the utmost importance,
+            is not yet recognized as a priority. However, the meeting with these
+            politicians opened a window of opportunity for the inclusion of
+            science in the regulatory.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="supportedinitiative">
+        <div className="text-white">
+          <h3 className="h3">
+            We supported the initiative to create a law on microplastics and
+            EDCs promoted by Deputy Julieta Macías
+          </h3>
+          <p className="p">
+            We contacted the Deputy of Mexico, Julieta Macias, of the Movimiento
+            Ciudadano political party, whom we had a meeting with her and with
+            the coordinator of advisers of the Movimiento Ciudadano political
+            party, Gustavo Ruiz Galindo, in the Chamber of Deputies. After
+            showing them our project and receiving their comments, they invited
+            us to work with them to create a law initiative related to
+            microplastics and EDCs. To this day we are working with them to
+            contribute to the progress of this law initiative by sending our
+            research results from the project, as well as from the proposed
+            biosensor and related literature, and even a possible connection
+            with the research of doctoral candidate Sergio Cortez and his
+            adviser Dr. Mauricio Rodríguez. In this way we act as mediators
+            between the government and scientific community.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="weinterviewedcitizens">
+        <div className="text-white">
+          <h3 className="h3">We interviewed citizens</h3>
+          <p className="p">
+            It is essential to know the opinion of the farmers since they are
+            the main users of our project. Therefore, we seek to get closer to
+            learn about their growing processes, concerns and needs. In this
+            way, we were able to adapt our project for ease of use and
+            accessibility. This is how we understood that it is extremely
+            important for the scientific community to work together with
+            farmers, since it means a benefit for both parties. On the one hand,
+            scientific progress, and on the other, the improvement of production
+            processes that will impact the economy of farming families (more
+            information).
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="weinterviewedfarmers">
+        <div className="text-white">
+          <h3 className="h3">We interviewed farmers</h3>
+          <p className="p">
+            We decided to create a survey in which we asked 244 people how
+            visible the problem of EDCs is in the environment. They were also
+            asked about the quality of the water in their community and of their
+            vegetable products, as well as their consumption habits, which
+            helped us to corroborate that there is a lack of information
+            regarding the relationship between the quality of water and
+            agricultural products, since most of them consider that the products
+            they consume are of good quality despite the regular quality of the
+            water in their community (more information).
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="weseeked">
+        <div className="text-white">
+          <h3 className="h3">
+            We seeked to create awareness and dissemination
+          </h3>
+          <p className="p">
+            Along with our investigation, we realize that there is not enough
+            attention to this rising problem. Hence, by using our social media,
+            talks, seminars and educational material, we share scientific news,
+            ways to reduce plastic waste and forms for the risk mitigation of
+            EDCs entry into our body. (more information).
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="masterrosa">
+        <div className="text-white">
+          <h3 className="h3">
+            We receive opinions from Master Rosa Wolpert, National Education
+            Officer at UNESCO, on how to motivate the study of science
+          </h3>
+          <p className="p">
+            Last september 13th we met with Master Wolpert to seek
+            recommendations for our project to be included in the educational
+            agenda. For which she told us about the activities carried out by
+            UNESCO and that do not necessarily focus on the information content
+            to be shared, rather they seek to improve access to educational
+            information for the promotion of the continuing creation of new
+            knowledge that ultimately will become human development. This gave
+            us another format in which we can adapt our project to be accessible
+            to the general public, but more than anything to inspire the study
+            of STEAM subjects (more information).
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="opinionexperts">
+        <div className="text-white">
+          <h3 className="h3">
+            With the opinion of the experts, we concluded that the
+            quantification of EDCs has a high importance for the scientific
+            advancement of this problem.
+          </h3>
+          <p className="p">
+            Feedback from experts was very important for us to realize that it
+            is not common to remove EDCs in water treatment plants, besides that
+            the quantification methods are expensive, not so accessible or take
+            too much time to be completed. Because of this we develop a
+            biosensor that makes this process more efficient, reliable and
+            economical. Moreover, it is the first step for the reduction of EDCs
+            concentrations in the environment. This allows for this scientific
+            advance to have a wide scope since it entails a set of reforms in
+            the social, regulatory, environmental and public health fields.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="economicmodel">
+        <div className="text-white">
+          <h3 className="h3">
+            We concluded through an economic model that if EDCs are degraded,
+            the quality of vegetable products will increase and therefore, the
+            economy of farmers as wel
+          </h3>
+          <p className="p">
+            Human beings are unpredictable, so their reaction to technological
+            development will also be unpredictable. However, its behavior can be
+            estimated or approximated using statistical tools as long as the
+            environment is well identified. Thanks to the approach with our
+            agents of interest, to the research carried out and the CONEVAL
+            poverty measurement calculation programs, we were able to determine
+            that if the EDCs can be successfully degraded they will have an
+            impact on the farming families’ economy, specifically, there is the
+            possibility of reducing around 2% of farmers living in poverty (more
+            information).
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="conservationlake">
+        <div className="text-white">
+          <h3 className="h3">
+            We contributed to the conservation of a local lake
+          </h3>
+          <p className="p">
+            In order to contribute with the solution of the problem in water
+            bodies damaged by the waste from the cities. iGEM Tec CEM, in
+            alliance with Planet Soldiers and the Civil Community from the
+            Espejo de los Lirios lake park, we helped in the conservation of the
+            fauna and flora of the place by corralling the habitat to prevent
+            the transfer of garbage to the lake. The Civil Community mentioned
+            the importance of this activity since large amounts of wastes from
+            the urban area surrounding the lake (figure 1), ends up being
+            deposited in it, causing losses in habitat and endemic species.
+            During this conversation between stakeholders, it was mentioned that
+            large amounts of microplastics have been found in the lake, and we
+            in turn provide feedback on these particles as well as the endocrine
+            disruptors that could be released from their degradation.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="edson">
+        <div className="text-white">
+          <h3 className="h3">
+          Dr. Edson Estrada talked us about the presence of EDCs in the drain
+          </h3>
+          <p className="p">
+          As part of our research, we searched the Mexican scientific literature for the different studies that had been carried out around the detection of EDCs. It was then that we came across the article by PhD. Edson Estrada entitled "Presence and treatment of endocrine disrupting compounds in wastewater from Mexico City using a submerged membrane bioreactor", whom we contacted and interviewed to learn more about his research and the topic.
+          <br></br>
+          He tells us that the most common EDCs found in wastewater are discarded drugs such as metformin and carbamazepine and also due to human excretions. In his work he manages to report the concentration of 30 to 400 ng / L of EDCs in treated water [10]. On the other hand, he also explains that endocrine disruptors do not volatilize, but rather remain on the surface of materials in an inactive form where it forms conjugates of sulfate and glucuronide conjugates, and this is also the way in which they are secreted. At the moment that the EDCs reach an organism, it returns to its active form and begins to execute all these failures in the system due to its disruptive function.
+          <br></br>
+          On the other hand, he told us that the removal of EDCs in treatment plants is common in terms of research development and new technologies of the National Water Commission (CONAGUA), but it is not common for plants to implement it because new technologies are still expensive and EDCs are not regulated.
+          <br></br>
+          Finally, PhD. Edson concluded with the importance of youth in solving an emerging problem, considering our project a comprehensive multidisciplinary proposal.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="experts">
+        <div className="text-white">
+          <h3 className="h3">
+          We interviewed experts to learn about the effect of EDCs on prostate cancer
+          </h3>
+          <p className="p">
+          A dynamic interview was held with doctoral candidate Sergio Alberto Cortez and his advisor Dr. Mauricio Rodríguez, who are evaluating the effect of exposure to low concentrations of bisphenols on prostate cancer cell lines. They found that the Bisphenol A and its analogs F and S have a transcriptional effect on the activation of the DNA damage repair mechanism and cell cycle regulation in LNCaP and PC-3 cell lines, as well as the presence of genotoxic damage.
+          <br></br>
+          Mainly in the conversation it was learned that EDCs are metabolized in the kidneys and discarded in the urine, however, there are small concentrations that remain inside the body causing different conditions at the cellular level. In the same way, they gave us support in the idea of ​​implementing our biosensor to detect EDCs in urine or some other biological matrix, such as the detection limits found between 0.2 to 0.5 nM for the bisphenol quantification, likewise, they proposed to us the idea of ​​making comparisons in the concentration of EDCs of people exposed to bodies of water with the concentration present in them.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="concludeddeveloping">
+        <div className="text-white">
+          <h3 className="h3">
+          We conclude by developing a health model that there is a relationship between water quality and diseases associated with EDCs that affect the population
+          </h3>
+          <p className="p">
+          After a deep inspection of the stakeholders, we decided to go beyond the objectives of Human Practices. Therefore, we chose to develop a model that could measure the impact of our project on society. One of the direct approaches that we identified was from health, for which we propose a statistical-mathematical model in which we include variables of production, water quality and health by municipality. Thanks to this analysis we were able to find a relationship between the variables in question, which indicates the marginal effects of bad water quality and agricultural production on health (more information).
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="oscar">
+        <div className="text-white">
+          <h3 className="h3">
+          We received help from agronomist Oscar García for the construction of a rack to study the effect of EDCs on lettuce.
+          </h3>
+          <p className="p">
+          In order to study the effect that EDCs have on agronomic products, we designed and built a rack to grow lettuce (more information) [link a degradación]. For this purpose, we received support from agronomist Oscar García Díaz, which consisted of a visit to his ranch where we learned the importance of soil improvement for cultivation through worm composting. In addition, he donated soil and compost to grow lettuce in the rack, and also taught us the basic requirements for growing lettuce, such as the amount of water they require. 
           </p>
         </div>
       </ModalGlass>

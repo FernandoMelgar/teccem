@@ -175,6 +175,7 @@ h1 {
 }
 
 .h3  {
+  margin-top: 10px;
   font-weight: bold;
   text-align: start;
   font-size: 1.2rem;
@@ -200,4 +201,17 @@ h1 {
 .reference {
   text-align: start;
   font-size: 12px;
+}
+
+.clickable {
+  transition: all .5s ease-out;
+}
+
+.clickable:hover {
+  transform: scale(1.05);
+}
+
+.clickable:active {
+  transform: scale(1);
+
 }

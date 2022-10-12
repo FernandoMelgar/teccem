@@ -1,7 +1,3 @@
-import {Footer} from "react-daisyui";
-import InstagramIcon from "../icons/instagram_icon";
-
-
 export default function IgemFooter() {
     return (
         <footer className="footer items-center p-4 bg-neutral text-neutral-content">
