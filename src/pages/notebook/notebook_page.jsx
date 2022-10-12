@@ -1,3 +1,5 @@
+import notebook_activities from "./notebook_activities";
+
 const months = [
   {
     month: "JANUARY",
