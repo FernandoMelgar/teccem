@@ -16,6 +16,7 @@ import ProjectDescriptionPage from "./pages/project_description/project_descript
 import Navbar from "./components/navbar";
 import IgemFooter from "./sections/footer_section";
 import EngineeringPage from "./pages/engineering/engineering_page";
+import EducationPage from "./pages/social_impact/education_page";
 
 //  <Route path="/laboratory/safety" element={<SafetyProjectPage/>}/>
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
         <Route path="/teccem/collaborations" element={<CollaborationsPage />} />
         <Route path="/teccem/description" element={<ProjectDescriptionPage />} />
         <Route path="/teccem/engineering" element={<EngineeringPage />} />
+        <Route path="/teccem/education" element={<EducationPage />} />
         
         <Route path="about" element={<LogBookPage />} />
         <Route path="/laboratory" element={<LaboratoryPage />} />
