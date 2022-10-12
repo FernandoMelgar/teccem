@@ -8,7 +8,6 @@ export default function HardwarePage() {
         <h2 className="h2">
             Overview
         </h2>
-        <h3 className="h3">The issue concerning the main topic of this part of the project, relies on the need of a constant delivery of the sample to a reaction chamber where the QCM (Quartz Crystal Microbalance) can change its resonance frequency depending on the mass change, thus resulting in a the detection and measurement of EDCs (Endocrine-Disruptive Chemicals) in the sample. Besides having the need for a constant sample delivery, a design for the overall system must be developed for it to lay and be able to be transported.</h3>
         <p className="p">The issue concerning the main topic of this part of the project, relies on the need of a constant delivery of the sample to a reaction chamber where the QCM (Quartz Crystal Microbalance) can change its resonance frequency depending on the mass change, thus resulting in a the detection and measurement of EDCs (Endocrine-Disruptive Chemicals) in the sample. Besides having the need for a constant sample delivery, a design for the overall system must be developed for it to lay and be able to be transported.</p>
       </div>
     </div>
