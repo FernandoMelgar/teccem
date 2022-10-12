@@ -18,6 +18,7 @@ import ProjectDescriptionPage from "./pages/project_description/project_descript
 import EngineeringPage from "./pages/engineering/engineering_page";
 import EducationPage from "./pages/social_impact/education_page";
 import HardwarePage from "./pages/engineering/hardware_biosensor";
+import ContributionsPage from "./pages/team/contributions_page";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/teccem/engineering" element={<EngineeringPage />} />
         <Route path="/teccem/education" element={<EducationPage />} />
         <Route path="/teccem/hardware" element={<HardwarePage />} />
+        <Route path="/teccem/contributions" element={<ContributionsPage />} />
         <Route path="about" element={<LogBookPage />} />
         <Route path="/laboratory" element={<LaboratoryPage />} />
         <Route path="/team" element={<TeamPage />} />
