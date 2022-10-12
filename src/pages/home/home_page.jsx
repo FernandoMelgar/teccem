@@ -34,9 +34,9 @@ export default function HomePage() {
               Chemicals
             </h1>
             <p className="text-lg text-white max-w-sm m-auto">
-              Chemically complex molecules structurally similar Chemically
-              complex molecules structurally similar to steroids and hormones,
-              originated from a variety of pollutants...
+            Chemically complex molecules structurally
+            similar to steroids and hormones, 
+            originated from a variety of pollutants. 
             </p>
             <Link to="/teccem/description">
               <div>
@@ -67,7 +67,7 @@ export default function HomePage() {
                 borderWidth: 2,
               }}
             >
-              <center>BUT WHY IS THIS OUR PROBLEM..?</center>
+              <center>BUT WHY IS THIS A PROBLEM..?</center>
             </h1>
 
             <div
@@ -82,12 +82,11 @@ export default function HomePage() {
             >
               <h2 className="text-3xl text-white cano ">Environmental:</h2>
               <p className="text-justify text-white">
-                In ***, 54% of wastewater is not treated, which has become one
+                In Mexico, 54% of wastewater is not treated, which has become one
                 of the biggest public health problems, since this type of water
                 is reused for agricultural activities and in some cases for
                 human consumption.
               </p>
-
               <p className="text-justify text-white">
                 {" "}
                 Worldwide concentrations found in water between 0.2 ng/L -
@@ -112,7 +111,7 @@ export default function HomePage() {
                 Agriculture represents the:
               </h2>
               <p className="text-justify text-white">
-                3% of GDP and 4% of exportations Income of 5.5 millions of **
+                3% of GDP and 4% of exportations Income of 5.5 millions of mexicans
               </p>
             </div>
             <div
@@ -127,7 +126,7 @@ export default function HomePage() {
             >
               <h2 className="text-3xl text-white cano ">Health:</h2>
               <p className="text-justify text-white">
-                Around 75% of the *** population have at least 1 EDCs' related
+                Around 75% of the mexican population have at least 1 EDCs' related
                 disease
               </p>
             </div>
@@ -164,7 +163,7 @@ export default function HomePage() {
               >
                 <h2 className="text-3xl text-white cano">Gauge.</h2>
                 <p className="text-justify text-white">
-                  Cause it would be scarcely posibleto get rid of them if not
+                  Cause it would be scarcely posible to get rid of them if not
                   quantifying them first.
                 </p>
               </div>
@@ -194,7 +193,7 @@ export default function HomePage() {
           <div className="">
             <div className="max-w-sm px-5 py-5">
               <p className="text-justify text-white text-lg">
-                <font className="font-bold">Degrading </font> these composites
+                <font className="font-bold">Degrading</font> these composites
                 into photosensitive compounds.
               </p>
             </div>
@@ -219,8 +218,8 @@ export default function HomePage() {
           <div className="h-auto w-auto p-16 flex justify-center self-center">
             <h2 className="text-5xl cano p-10 text-white">
               <center>
-                <font color="skyblue">We care...</font> Because many do not.{" "}
-                <font color="purple">We solve... </font>What others ignore.
+                <font color="skyblue">We care...</font> because many do not.{" "}
+                <font color="purple">We solve... </font>what others ignore.
               </center>
             </h2>
           </div>
