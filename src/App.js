@@ -26,6 +26,7 @@ import ModelPage from "./pages/engineering/model_degradacion";
 import DesignPage from "./pages/engineering/design";
 import ImplementationPage from "./pages/engineering/implementation";
 import ResultsPage from "./pages/engineering/results";
+import MeasurementPage from "./pages/engineering/measurement";
 
 export default function App() {
   return (
