@@ -1,12 +1,15 @@
 export default function AttributionsPage() {
-    return (
-        <div className="pt-20 px-20" style={{backgroundColor: '#05046D', width: '100vw', height: '100vh'}}>
-            <div className="text-center">
-                <h1 className="text-6xl" style={{color: 'rgb(87, 87, 242)'}}> Attributions</h1>
-            </div>
-            <section className="section__finance w-lg m-auto mt-10 p-4 rounded-sm" style={{backgroundColor: 'red'}}>
-                <h3 className="text-4xl font-bold text-white">Finance</h3>
-            </section>
-        </div>
-    )
-}   
+  return (
+    <div
+      className="pt-16"
+      style={{
+        backgroundImage: `url(https://static.igem.wiki/teams/4260/wiki/attributions/fondo-attributions.jpg)`,
+        minHeight: '100vh',
+      }}
+    >
+      <div className="p-10 max-w-2xl m-auto">
+        <h1 className="text-6xl text-center text-white font-bold">ATRIBUTIONS</h1>
+      </div>
+    </div>
+  );
+}

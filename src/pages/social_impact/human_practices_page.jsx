@@ -16,6 +16,7 @@ export default function HumanPracticesPage() {
         className="m-auto"
         src="https://static.igem.wiki/teams/4260/wiki/human-practices/tree-btn-1400.png"
         alt="Human Practieces tree"
+        style={{minWidth: 1400, maxWidth:1400, width:1400}}
         useMap="#tree_human_practices_map"
       />
 
@@ -135,7 +136,7 @@ export default function HumanPracticesPage() {
           alt="We interviewed experts"
           title="We interviewed experts"
           onClick={() => {
-            document.getElementById("experts").click();
+            document.getElementById("opexperts").click();
           }}
           coords="406,602,620,667"
           shape="rect"
@@ -184,7 +185,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Government"
           title="Government"
-          href=""
+          onClick={() => {
+            document.getElementById("government").click();
+          }}
           coords="219,2405,397,2447"
           shape="rect"
         />
@@ -192,7 +195,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Farmer"
           title="Farmer"
-          href=""
+          onClick={() => {
+            document.getElementById("farmers").click();
+          }}
           coords="260,2509,437,2553"
           shape="rect"
         />
@@ -200,7 +205,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Mexican Society"
           title="Mexican Society"
-          href=""
+          onClick={() => {
+            document.getElementById("mexicansociety").click();
+          }}
           coords="365,2593,531,2668"
           shape="rect"
         />
@@ -208,7 +215,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Experts"
           title="Experts"
-          href=""
+          onClick={() => {
+            document.getElementById("experts").click();
+          }}
           coords="591,2650,767,2694"
           shape="rect"
         />
@@ -216,7 +225,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Tec professors"
           title="Tec professors"
-          href=""
+          onClick={() => {
+            document.getElementById("tecprofs").click();
+          }}
           coords="815,2567,974,2641"
           shape="rect"
         />
@@ -224,7 +235,9 @@ export default function HumanPracticesPage() {
           target=""
           alt="Team members"
           title="Team members"
-          href=""
+          onClick={() => {
+            document.getElementById("team").click();
+          }}
           coords="1022,2422,1179,2496"
           shape="rect"
         />
@@ -232,52 +245,13 @@ export default function HumanPracticesPage() {
           target=""
           alt="Instructors"
           title="Instructors"
-          href=""
+          onClick={() => {
+            document.getElementById("instructors").click();
+          }}
           coords="1022,2552,1181,2599"
           shape="rect"
         />
       </map>
-      <div
-        className="human_practices_info max-w-4xl m-auto p-8 rounded-md text-white"
-        style={{ backgroundColor: "rgba(215, 1, 99,.5)" }}
-      >
-        <h3 className="h3">Mexican society and our problem </h3>
-        <p className="p">
-          {" "}
-          According to the obtained results of the survey, the range of ages is
-          between 13 and 73 years old, where the mean is 31 years old, although
-          the range with more frequency is from 13-23 years old, with 142
-          responses. On the other hand, the educational level of this sample is
-          made up mostly of people with a Bachelor’s degree (141 responses),
-          followed by High School degree (69 responses), Postgraduate (30
-          responses) and Middle School students (3 responses).
-        </p>
-        <p className="p">
-          To find out how aware people are about the problem, they were asked a
-          series of questions about general knowledge about plastics,
-          microplastics and EDCs, from which it can be concluded that the
-          majority of people had no previous knowledge. About the micro plastics
-          and EDCs, 70.1% of the sample had no awareness about our ingestion of
-          approximately 50,000 plastic particles per year. 64.2% of the
-          participants have never heard about EDCs.
-        </p>
-        <img
-          src="https://static.igem.wiki/teams/4260/wiki/imagen/project/biosensor/project-bio-digrama-2.png"
-          alt="Diagrama"
-          className="figure"
-        />
-        <p className="p">
-          Talking about the consumption of fruits and vegetables habits, 63.8%
-          consume these products 5 or more times per week and 67.1% of the
-          participants buy in local markets, 32.1% in supermarkets and the rest
-          grow what they consume. Even though most of the people consume fruits
-          and vegetables with high frequency, most of them do not know from
-          where the water with which their products are irrigated comes from,
-          despite considering that the quality of these (in terms of sanitation)
-          is good and that the water quality in their community is regular.{" "}
-        </p>
-      </div>
-
       <ModalGlass modalId="choosing_our_problem_modal">
         <div className="text-white">
           <h3 className="h3">Choosing our problem </h3>
@@ -625,7 +599,7 @@ export default function HumanPracticesPage() {
           </p>
         </div>
       </ModalGlass>
-      <ModalGlass modalId="experts">
+      <ModalGlass modalId="opexperts">
         <div className="text-white">
           <h3 className="h3">
             We interviewed experts to learn about the effect of EDCs on prostate
@@ -690,6 +664,133 @@ export default function HumanPracticesPage() {
             and compost to grow lettuce in the rack, and also taught us the
             basic requirements for growing lettuce, such as the amount of water
             they require.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="government">
+        <div className="text-white">
+          <h3 className="h3">Government</h3>
+          <p className="p">
+            Nowadays there is no regulatory framework in relation to EDCs nither
+            established protocols to periodically monitor these compounds in the
+            water. However, there are actors in this sector who are continuously
+            getting involved with the problem, beginning to make proposals for
+            laws and initiatives on microplastics since the term EDCs is
+            generally unknown. Therefore, work is currently being carried out,
+            in conjunction with public officials, so that a law initiative
+            regarding these compounds is approved and comes into force soon.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="farmers">
+        <div className="text-white">
+          <h3 className="h3">Farmers</h3>
+          <p className="p">
+            Mexican farmers are our main agents since they are the source of
+            alimentation production. In Mexico, 40% of corn consumption comes
+            from small farmers, in addition to being one of the main sources of
+            income for many Mexican families [16]. Since our entire project
+            revolves around farmers, their perspective is essential. Approaching
+            them helped us to improve the interaction between the biosensor and
+            the degradation system to make its use and implementation as simple
+            as possible. In addition, we were able to find out what their main
+            concerns are and if our project would really be useful to them. The
+            first contact with this sector of the population was through a visit
+            to the ranch of Agricultural Engineer Oscar García, located in
+            Tepeji del Río, Hidalgo. Where we learned about the activities that
+            he carries out on a daily basis. While another way of contact was
+            via surveys with the different farmers with whom they had been
+            contacted throughout the year.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="mexicansociety">
+        <div className="text-white">
+          <h3 className="h3">Mexican Society</h3>
+          <p className="p">
+            Mexican citizens are an important part of the beneficiaries of our
+            project because they are the ones that consume agricultural
+            products, but these are one of the many forms in which EDCs are
+            transmitted. Therefore it is important to know the context in which
+            the people live, if they are concerned with the problematic and the
+            main sources of EDCs. So, in order to learn roughly the citizens, we
+            made a survey conducted on 244 people in which they were asked about
+            their general data (age and educational level), general knowledge
+            about microplastics, EDCs, water quality in their community, and
+            consumption habits of fruits and vegetables.
+            <br></br>
+            This exercise helped us to know the perspective of some citizens and
+            in this way to know what type of information and precautions are
+            necessary for them to be actively involved in the problem.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="experts">
+        <div className="text-white">
+          <h3 className="h3">Experts</h3>
+          <p className="p">
+            It is important to consult experts principaly to obtain valuable and
+            specific information that allows us to correctly form our project,
+            as well as generate new research approaches and be fed back so that
+            our project is as complete as possible.
+            <br></br>
+            On the other hand, no distinction was made between areas since
+            different perspectives were sought for the development of the
+            project, so the only requirement was that they had some kind of
+            scientific or social specialization in EDCs and/or microplastics.
+            <br></br>
+            Additionally, all experts expressed their opinion that government
+            authorities should be more involved in this public health problem.
+            In addition to the fact that they themselves are willing to
+            collaborate jointly for the elaboration of a regulatory framework.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="tecprofs">
+        <div className="text-white">
+          <h3 className="h3">Tec Professors</h3>
+          <p className="p">
+            Throughout the project, various professors from the Tecnológico de
+            Monterrey, campus Estado de México, were consulted in order to
+            request their opinion about the project and thus build it better.
+            Within the conversation, most of the teachers were unaware of the
+            context of the EDCs, however, this was not a barrier for them to get
+            involved and begin to create greater awareness of this problem.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="instructors">
+        <div className="text-white">
+          <h3 className="h3">Instructors</h3>
+          <p className="p">
+            PhD. Ana Laura Torres and PhD. Aurora Antonio are the ones who have
+            taken the tutoring of this project. For them it generates great
+            personal and professional satisfaction since they are in charge of a
+            wide variety of people and personalities whom they guide and learn
+            from. Being tutors entails great responsibility and trust towards us
+            and in the work we do since, by always being attentive, they observe
+            our abilities and enhance them.
+            <br></br>
+            Additionally, they are one of the most involved people of our
+            project since they are conscious about this rising problem that,
+            although there is no estimation of the future impact of it, our
+            project brings a sustainable and economic opportunity beneficial to
+            the environment.
+          </p>
+        </div>
+      </ModalGlass>
+      <ModalGlass modalId="team">
+        <div className="text-white">
+          <h3 className="h3">Team Members</h3>
+          <p className="p">
+            During this year, each team member has specialized in certain parts
+            of this great project. Since we are a multidisciplinary team, we
+            have been able to include different perspectives that make this work
+            one of the most complete that have been carried out. Additionally,
+            this project has given us great learning about agriculture, but more
+            than anything, about the people involved and how we as students can
+            make alliances with civil associations and the government to carry
+            out strategic projects aligned with the UN 2030 Agenda.
           </p>
         </div>
       </ModalGlass>
