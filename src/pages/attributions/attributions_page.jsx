@@ -9,6 +9,7 @@ export default function AttributionsPage() {
     >
       <div className="p-10 max-w-2xl m-auto">
         <h1 className="text-6xl text-center text-white font-bold">ATRIBUTIONS</h1>
+        
       </div>
     </div>
   );
