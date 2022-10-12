@@ -196,6 +196,7 @@ h1 {
   margin: auto;
   max-width: 400px;
   font-size: 11px;
+  text-align: center;
 }
 
 .reference {
