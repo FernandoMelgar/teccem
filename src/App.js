@@ -24,6 +24,7 @@ import ProofOfConceptPage from "./pages/proof/proof_of_concept_page";
 import SoftwarePage from "./pages/engineering/software_biosensor";
 import ModelPage from "./pages/engineering/model_degradacion";
 import DesignPage from "./pages/engineering/design";
+import ImplementationPage from "./pages/engineering/implementation";
 
 export default function App() {
   return (
