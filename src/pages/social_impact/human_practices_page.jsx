@@ -252,6 +252,847 @@ export default function HumanPracticesPage() {
           shape="rect"
         />
       </map>
+
+      <div
+        className="human_practices_info max-w-4xl m-auto p-8 rounded-md text-white"
+        style={{ backgroundColor: "rgba(215, 1, 99,.5)" }}
+      >
+        <h3 className="h3">Mexican society and our problem </h3>
+        <p className="p">
+          {" "}
+          According to the obtained results of the survey, the range of ages is
+          between 13 and 73 years old, where the mean is 31 years old, although
+          the range with more frequency is from 13-23 years old, with 142
+          responses. On the other hand, the educational level of this sample is
+          made up mostly of people with a Bachelor’s degree (141 responses),
+          followed by High School degree (69 responses), Postgraduate (30
+          responses) and Middle School students (3 responses).
+        </p>
+        <p className="p">
+          To find out how aware people are about the problem, they were asked a
+          series of questions about general knowledge about plastics,
+          microplastics and EDCs, from which it can be concluded that the
+          majority of people had no previous knowledge. About the micro plastics
+          and EDCs, 70.1% of the sample had no awareness about our ingestion of
+          approximately 50,000 plastic particles per year. 64.2% of the
+          participants have never heard about EDCs.
+        </p>
+        <p className="p">
+          Talking about the consumption of fruits and vegetables habits, 63.8%
+          consume these products 5 or more times per week and 67.1% of the
+          participants buy in local markets, 32.1% in supermarkets and the rest
+          grow what they consume. Even though most of the people consume fruits
+          and vegetables with high frequency, most of them do not know from
+          where the water with which their products are irrigated comes from,
+          despite considering that the quality of these (in terms of sanitation)
+          is good and that the water quality in their community is regular.{" "}
+        </p>
+        <p className="p">
+          With this applied survey we could become acquainted, on a large scale,
+          with how relevant is the problem around people that are not scientific
+          or experts in the field. We can conclude that there is a lot of
+          desinformation around EDCs and that despite the fact that this is a
+          recent problem, there is a great probability that the effects on
+          health will be increasingly severe, so it is important to start
+          disseminating information to prevent this problem from becoming
+          bigger.
+        </p>
+        <h3 className="h3">Presence of science in mexican agriculture</h3>
+        <p className="p">
+          On September 29, the National Corn and Milpa Day was celebrated, for
+          which the Mexican government organized a Fair in the downtown of the
+          country for which farmers and food processors from different regions
+          (figure 3). We had the opportunity to attend to learn about the
+          different types of crops around the country. During this event, we
+          were able to get closer to more farmers who told us about their
+          history, traditions and agricultural activities. In total, we
+          approached 27 farmers who were surveyed about the type of crops they
+          produce, the quality of their irrigation water, and the involvement of
+          the scientific community in their activities.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/citizens-agronomists/agricultoresestados.png"
+          alt="Gráfica Agricultores"
+          className="figure"
+        />
+        <p className="p">
+          Most of them have worked in the countryside all their lives, so their
+          farming businesses are family-owned and passed down from generation to
+          generation. Because they are small groups, most of them work in teams
+          of 1 and 6 people. Each one of them has their farm activities as their
+          main source of income, so they are merchants within their community
+          but also consume from their own harvest, so 81.5% work with polycrops
+          and 18.5% monocrops.
+        </p>
+        <p className="p">
+          On the other hand, 96.3% (26 farmers) know where the water (figure 4)
+          they use to observe their crops comes from, of which the majority
+          obtain it thanks to the rain or water corps close to them. However,
+          55.6% (15 farmers) do not frequently check the water with which they
+          irrigate and those who have done so report that it is of poor quality.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/citizens-agronomists/sourceirrigationwater.png"
+          alt="Gráfica Agrónomos"
+          className="figure"
+        />
+        <p className="p">
+          Finally, we wanted to know if the farmers are supported by scientists
+          for any of their production processes or quality control,
+          unfortunately 22 of them (81.5%) have not received technical or
+          scientific advice, but they remain open to receiving trainings to
+          improve their products, as long as their own processes and traditions
+          are not forced to change radically or affect their resources.
+        </p>
+        <p className="p">
+          Thanks to the approach we had with the Mexican farmers, we were able
+          to improve the design, accessibility and interface of both the
+          biosensor and the degradation system. In addition, we know that they
+          must work together so that any technology that they want to implement
+          in the land is adequate and does not harm the resources. On the other
+          hand, the irrigation system they use must be taken into account,
+          because despite the fact that in this survey the majority obtain their
+          water from rain, many use other systems for non-seasonal crops.
+        </p>
+        <p className="p">
+          All interviews and surveys were conducted with the consent of the
+          participants. A Privacy Notice was made for all the people with whom
+          we had contact and specifically for the interviews with experts and
+          public servants, a Letter of Consent for the use of voice and image
+          was shared with them based on the one already existing within the
+          institution.
+          <a
+            className="underline text-blue-300"
+            href="https://static.igem.wiki/teams/4260/wiki/citizens-agronomists/hp-aviso.pdf"
+          >
+            To know the Privacy Notice click here
+          </a>{" "}
+          ,{" "}
+          <a
+            className="underline text-blue-300"
+            href="https://static.igem.wiki/teams/4260/wiki/citizens-agronomists/hp-carta.pdf"
+          >
+            to know the Letter of Consent click here.
+          </a>
+        </p>
+        <h3 className="h3">Integrated Human Practices Models</h3>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/diagrammodelshp.png"
+          alt="Diagrama HP"
+          className="figure"
+        />
+        <h3 className="h3">ECONOMIC MODEL</h3>
+        <h2 className="h2">WHY IS IMPORTANT?</h2>
+        <p className="p">
+          One of the main problems that affects Mexico’s people is poverty, in
+          which almost half of the population lives. But what is more impressive
+          is that most of the federal entities with the highest percentage of
+          their population in poverty are from rural locations, in which the
+          main economic activity is agriculture. The production of agricultural
+          crops gives work to 5.5 million Mexicans [17], but also, those people
+          represent around 21.6% of the poor people in the country [18].
+        </p>
+        <p className="p">
+          Since the late 80’s, social programs focused in the agricultural
+          development were implemented, some of these were Programa de Apoyos
+          directos al Campo (PROCAMPO in 1994)and Alianza para el Campo (1996),
+          that were executed with the objective of impulse the agricultural
+          production inside and outside Mexico. According to Scott [19], the
+          public expenditure (figure 6) that Mexico intended for rural
+          development is one of the highest in Latin America, with around a
+          share of 4% of the Gross Domestic Product (GDP). Even now, most of the
+          budget for social programs target the impulse of the agricultural
+          industry. Most of the programs for 2022 are under the administration
+          of the secretaries of Welfare (BIENESTAR), Agricultural and Rural
+          Development (SADER), Territorial and Urban Agrarian Development
+          (SEDATU), and Environment and Natural Resources (SEMARNAT). The graph
+          below represents the distribution of the public budget according to
+          each secretary (quantities expressed in millions of Mexican pesos).
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/presupuestoprogramas-ihp.png"
+          alt="Gráfiga Presupuesto"
+          className="figure"
+        />
+        <p className="p">
+          However, the form of implementation and distribution of resources were
+          not always the best since these programs launched in the 90’s, were
+          acting in a regressive way rather than a progressive. In other words,
+          even when social programs were targeted to the poor rural population,
+          just the most rich were the ones that really received the economic
+          benefits. In the same way, some academics agree with the cyclical
+          behavior of public spending in agriculture, which is defined by
+          periods of recession in the Mexican economy where the monetary flows
+          were bigger [20]. Also, there have been other types of policies that
+          consisted of subsidies to agricultural products consumption, this
+          benefits the consumer but damages the producers because it is supposed
+          to increase productivity (not necessarily an equality policy), but not
+          all producers own the same amount of production factors that can
+          sustain a rise in supply. Those types of policies translate into a
+          non-efficient form for production and by consequent, non-distributive
+          policy. This drives into the conclusion that, in addition to the
+          poorly managed programs, their support was not constant and with the
+          right implementation of equality policies [20], [21] and [22].
+        </p>
+        <h3 className="h3">OUR ESTIMATION IN MEXICAN POVERTY</h3>
+        <p className="p">
+          It is necessary to come up with different forms for poverty reduction.
+          It is not enough with monetary stimuli, development also comes with
+          technology and synthetic biology is an opportunity to explore and
+          bring into society. But it is also important to involve as many
+          stakeholders as possible for the sake of indicators that will tell us
+          if the technology is adequate for the social context, and vice versa.
+          This is why we had developed a simulator, taking the CONEVAL’s
+          (National Council for the Evaluation of Social Development Policy)
+          algorithm for poverty measure, that calculates the impact in poverty
+          and extreme poverty by income of farmers if HydroDefense is used as a
+          complementation of any of the social programs now running.{" "}
+        </p>
+        <p className="p">
+          First of all we need to understand the concept of poverty in Mexico.
+          By law, poverty has to meet certain specifications to consider a
+          person poor (figure 7), the institution commissioned to this task is
+          the CONEVAL. In the economic dimension, we can find two limits: the
+          poverty income line, and the extreme poverty income line (figure 8).
+          In recap, a person is considered poor when suffers one or more social
+          deprivations and their income is not sufficient for covering their
+          food and non-food needs. While, a person that is extremely poor is the
+          one that suffers three or more social deprivations and their income is
+          not sufficient to cover their food needs [23].
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/dimensionespobreza-1.png"
+          alt="Imagen HP"
+          className="figure"
+        />
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/lineaspobreza1.png"
+          alt="Lineas pobreza"
+          className="figure"
+        />
+        <p className="p">
+          For this specific simulation, as we are only modifying the farmers
+          income (figure 9), our points of references will be the lines of
+          poverty by income. So, there are in total four lines, which for the
+          unit of measurement is the income per month. In rural areas, in 2020
+          (the year of exercise), were of $2,520.16 (117.23 USD) for poverty and
+          $1,299.30 (60.44 USD) for extreme poverty; and in the urban areas were
+          $3,559.88 (165.59 USD) for poverty and $1,702.28 (79.19 USD) for
+          extreme poverty [24].
+        </p>
+        <p className="p">
+          In the graphs below you can find some of the descriptive statistics to
+          understand better the social context we are focusing on.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/averageincome-ihp.png"
+          alt="Ingresos promedio"
+          className="figure"
+        />
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/percentagepov-ihp.png"
+          alt="Porcentaje"
+          className="figure"
+        />
+        <p className="p">
+          For this exercise we used the algorithm for poverty measure in 2020 as
+          it is one of the best methodologies for multidimensional poverty.
+          Since the algorithm uses several national surveys to collect all the
+          needed information, but the final information that produces does not
+          properly discriminate by type of economic activity, we rescue from the
+          National Occupational Classification System (SINCO) all the people
+          that have as principal source of income the agricultural activities.
+          Once we had all the agronomists identified, we made the assumption
+          that after EDCs are degraded, the conditions for crops to be
+          cultivated should be as favorable for production to increase, this way
+          the earnings per sale will increase. In order to reflect this effect
+          on agronomists, we took their income and raised it by 15-20% which is
+          the range we estimated after a deep investigation of the effects of
+          EDCs in agricultural crops and the food industry market prices [25].
+        </p>
+        <p className="p">
+          Noteworthy, that the algorithm is written to be used in the STATA
+          software, the modified algorithm for Windows can be found{" "}
+          <a
+            className="underline text-blue-300"
+            href="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/igem-economicmodel-windows.pdf"
+          >
+            here
+          </a>
+          , for Mac click{" "}
+          <a
+            className="underline text-blue-300"
+            href="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/igem-economicmodel-mac.pdf"
+          >
+            here
+          </a>
+          . As the algorithm collects data from different databases, in order to
+          use the algorithm it is necessary to download the calculation programs
+          and databases (Programas de cálculo y bases de datos) from the CONEVAL
+          website that can be found{" "}
+          <a
+            className="underline text-blue-300"
+            href="https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_2016-2020.aspx"
+          >
+            here
+          </a>
+          . Also, for the algorithm to work in any computer it is necessary to
+          copy the routes where the archives were downloaded and paste them in
+          the lines 28-36, like the example below (figure 11)
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/instruccionesstata.png"
+          alt="Instrucciones"
+          className="figure"
+        />
+        <h2 className="h2">WHICH IS THE IMPACT?</h2>
+        <p className="p">
+          After running the modified algorithm with the increase of income, we
+          found that the percentage of agronomists that live in poverty and
+          extreme poverty situations decreases by around 1.43% - 2.21% and 1.5%
+          - 2.42%, respectively. With the obtained results we can say that if
+          every agricultural worker is a beneficiary of the degradation system
+          that we are proposing, and that their income increases between 15% and
+          20% they will have better chances to get out of poverty or extreme
+          poverty by income, according to the case. If we go further with the
+          inference, according to economic theory, that “extra” income they are
+          receiving can be used to cover part of their social deprivations, then
+          get a better life quality and move to the area of the population that
+          is not vulnerable by income or social deprivations.
+        </p>
+        <p className="p">
+          The graph below shows how this technology affects the agronomist’s
+          poverty situation.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/resultseconomicmodel.png"
+          alt="Resultados"
+          className="figure"
+        />
+        <h3 className="h3">HEALTH MODEL</h3>
+        <h2 className="h2">WHY IS IMPORTANT?</h2>
+        <p className="p">
+          The most concerning approach about the effects of EDCs is that most of
+          them end in our organisms. Recent research has demonstrated that
+          thanks to the plastic production that turns into wastes in water corps
+          presents these dangerous components for health. Some of the diseases
+          related to the consumption of EDCs, especifically BPA (bisphenol A,
+          which is the compound we are focusing on), are: diabetes, obesity,
+          dyslipidemia, hypertension and metabolic syndrome. Hence, it is
+          natural to study the factors, besides EDCs concentrations influence
+          the number of people associated with these diseases.
+        </p>
+        <p className="p">
+          On the other hand, in Mexico diabetes is the third cause of death
+          [26], one in four people live with hypertension [27] and around 75%
+          have obesity [28]. These diseases generate a higher risk when another
+          type of sickness attacks the body and are correlated with dyslipidemia
+          and metabolic syndrome [29]. Since the 2000’s, academics and the
+          government had established diabetes, obesity and hypertension as a
+          public responsibility, applied many conscientization campaigns and
+          regulation in the alimentation industry to reduce the number of cases.
+          Although there are no concrete actions focused on the problems that
+          EDCs cause in human’s health, there are some initiatives from citizens
+          and legislators to call the higher authorities to inquire about this
+          as a public health and environmental problem [30]. The maps below
+          illustrates the distribution of the Mexican population with obesity,
+          hypertension and diabetes by municipality.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/obesity-ihp.png"
+          alt="Obesidad"
+          className="figure"
+        />
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/hypertension-ihp.png"
+          alt="Hipertensión"
+          className="figure"
+        />
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/diabetes-ihp.png"
+          alt="Diabetes"
+          className="figure"
+        />
+        <p className="p">
+          Also, authorities should pay attention to the reforms made in other
+          parts of the world (figure 16) since it is not only a national
+          problem. For example, in May, 2017, the European Union released a set
+          of scientific criteria in the market and use of biocidal products in
+          order to reduce the production and consumption of endocrine
+          disruptors. This regulation entered into force on June 7, 2018 and for
+          within seven years after this date, the European Council must present
+          to the “Biocides CA meeting” (the group of experts) a report of the
+          results derived from the implementation of the scientific criteria for
+          the determination of endocrine-disrupting properties [31].{" "}
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/worldpolicies.png"
+          alt="Políticas mundiales"
+          className="figure"
+        />
+        <p className="p">
+          It is crucial for the creation of public reforms to have backup
+          research, which is very hard to find at a macro level, and even more
+          so when it is a relatively new public health problem. As a lack of
+          investigation of population health and the EDCs factor in it, we
+          decided to use the information we had aviable and create a model that
+          describes the effects of agricultural crops and water quality in
+          society's health. With the obtained results we can estimate the
+          magnitude of the effects at the moment, but having in mind that the
+          model just considers a point in time and if we do not take action now,
+          the marginal effects will increase.
+        </p>
+        <h3 className="h3">HOW WE ESTIMATED?</h3>
+        <p className="p">
+          First it is important to determine the variables, the base year and
+          unit of measurement. The database we used for this model were a
+          compilation of other public databases, which were developed by some
+          government agencies such as the National Institute of Statistic and
+          Geography (INEGI), the National Water Commission (CONAGUA), the
+          National Council for the Evaluation of Social Development Policy
+          (CONEVAL) and the Health Secretary. For the information collected from
+          INEGI we use the Economic Census and the National Agricultural Survey.
+          The base year is 2017 and the unit of measurement is by
+          municipalities, both delimitations were determined because that is
+          where all our databases coincide. The final database can be found{" "}
+          <a
+            className="underline text-blue-300"
+            href="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/healthmodel-ihp-igemteccem.csv"
+          >
+            here.
+          </a>
+        </p>
+        <p className="p">
+          After collecting the necessary data, we had to establish the variables
+          that we should use (figure 17). According to the main investigation in
+          which the whole project is based, we are trying to model the behavior
+          of population’s health caused by contaminated water and agricultural
+          crops.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/variables1.png"
+          alt="Variables"
+          className="figure"
+        />
+        <p className="p">
+          The water quality is determined by CONAGUA under certain criteria:
+          value of fecal coliforms, biochemical oxygen demand, chemical oxygen
+          demand, e-coli, fecal enterococci per hundred milliliters; dissolved
+          oxygen saturation percentage, total suspended solids; and daphnia
+          magna toxicity (48 hours) and vibrio fisheri (15 minutes).
+        </p>
+        <p className="p">
+          Also it is important to mention that the database we use considers a
+          sample of 414 of municipalities that produce agricultural crops and
+          represents around one third of the total. The reason why our
+          observations were reduced is because there was a lot of data with any
+          value assigned, so the final database is the result after applying the
+          data mining. The maps below illustrates the distribution of the chosen
+          variables in the country.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/agricultureproduction.png"
+          alt="Mapa Agricultura"
+          className="figure"
+        />
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/povertypercentage.png"
+          alt="Mapa pobreza"
+          className="figure"
+        />
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/epovertypercentage.png"
+          alt="Mapa extrema"
+          className="figure"
+        />
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/waterquality.png"
+          alt="Mapa agua"
+          className="figure"
+        />
+        <p className="p">
+          Now that we have described the variables we used, the next step is to
+          create the model. For this task we use econometric methods as it is
+          the best way to study social factors. For this specific data, and the
+          nature of it, we decided that the best methodology is Ordinary Least
+          Squares (OLS). The calculation of the model was made with the RStudio
+          software, but the mathematical representation for the estimators are a
+          minimization of the addition of the of the square of residuals:
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/hpnew/ec1.png"
+          alt="Ecuación 1"
+          className="figure"
+        />
+        <p className="p">
+          Where û_i is the vector of estimated residuals with a dimension nx1,
+          y_i is the vector of dependent observations, X_i the vector of
+          independent observations and B the coefficients. If we made the
+          minimization we get:{" "}
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/hpnew/ec2y3.png"
+          alt="Ecuación 2 y 3"
+          className="figure"
+        />
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/hpnew/ec3y4.png"
+          alt="Ecuación 4 y 5"
+          className="figure"
+        />
+        <p className="p">Then, the OLS estimator has the form of:</p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/hpnew/ec6y7.png"
+          alt="Ecuación 6 y 7"
+          className="figure"
+        />
+        <p className="p">
+          Now that we have explained the method, we can specify the models,
+          which takes the next form:
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/hpnew/ec8y9.png"
+          alt="Ecuación 8 y 9"
+          className="figure"
+        />
+        <p className="p">
+          Where Dis_i is the number of people in treatment of any of the
+          diseases (previously mentioned), PAgr_i is the agricultural
+          production, Pov_i is the number of people living in poverty, EPov_i
+          the number of people living in extreme poverty, Prod_i is the
+          productivity index, WQ_j,i are the dummy variables for water quality,
+          B_i represent the estimators (marginal effects) or, if is it the case,
+          the intercept, and d_i the coefficients for the dummy variables. Take
+          into account that the variables Dis_i, PAgr_i, Pov_i and EPov_i have
+          the natural logarithmic transformation because we are working with
+          very large numbers and this operation will reduce the range of the
+          variables so the extreme values do not affect our model. Note that
+          even if we have three categories for water quality, we only can add
+          two of them in the model, first because one of the values is 0 so the
+          whole term will turn into 0; and second because if we consider all
+          three categories at the same time, we will produce an endogeneity
+          problem and our estimators will be biased. In other words, the
+          endogeneity problem means that the covariance between the independent
+          variables and the residuals is different from 0, so we can have
+          confidence in the results.{" "}
+        </p>
+        <p className="p">
+          Also it is important to know why we add the variables of control
+          (productivity index and poverty). For econometric models it has more
+          relevance that it considers other variables apart from the main ones
+          because in that way we can extract from the residuals those variables
+          that are strongly attached to the dependent variable (People with a
+          disease). This process translates into a more robust and specific
+          model in which we can be more precise about the effects of water
+          quality and agricultural production in mexican´s health.
+        </p>
+        <h3 className="h3">WHICH IS THE IMPACT?</h3>
+        <p className="p">
+          As mentioned previously, the model was run in the software RStudio,
+          the script can be found{" "}
+          <a
+            className="underline text-blue-300"
+            href="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/modelo-salud-igem.pdf"
+          >
+            here.
+          </a>
+          The results are presented in the tables below, but as a first insight
+          almost all of the coefficients of our variables are statistically
+          significant with a 95% confidence.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/hpnew/tabhp.png"
+          alt="Tabla 1"
+          className="figure"
+        />
+        <p className="p">
+          For this model, we found that if the agricultural production rises by
+          1%, the number of people with a disease increase by 0.052%, the same
+          case if levels of poverty increases but with a positive effect in
+          diseases of 0.69%, but if the productivity rises by 1 point, the
+          number of people with a disease will decrease in 0.2%, this may be
+          because if the municipality is more productive, it generates more
+          income that can be used to provide more health services. For the
+          variables of water quality, we can conclude that if the municipality
+          has regular or good water quality the effect over people with a
+          disease is between 0.19% - 0.23% less than if the municipality has a
+          bad water quality. The r-squared is of 0.42 which means that our
+          independent variables explain around the 42% of the variance of the
+          dependent variable, which is a good level considering we are just
+          taking a point in time and that is a social phenomena.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/hpnew/tabhp2.png"
+          alt="Tabla 2"
+          className="figure"
+        />
+        <p className="p">
+          In this case, the coefficients have a greater level of significance
+          than the antecedent model but with smaller marginal effects. Here the
+          effect of an increase of 1% in agricultural production is an increment
+          of 0.03% in the number of people with a disease, but for the extreme
+          poverty variable is 0.43%. In the case of the production index, the
+          effect over people’s insalubrity is a reduction of 2%. For the water
+          quality, we found that if the municipality has regular or good water
+          quality the effect over people with a disease is between 0.31% - 0.35%
+          less than if the municipality has a bad water quality.{" "}
+        </p>
+        <p className="p">
+          So, the final equations that describe this two situations are:
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/integrated-hp-images/hpnew/ec10y11.png"
+          alt="Ecuación 10 y 11"
+          className="figure"
+        />
+        <p className="p">
+          As demonstrated, agricultural production and the water quality are
+          related with the Mexican people’s health and at least it cannot be
+          attributed to some factor of lack of production or levels of poverty
+          since those factors have been controlled by including them in the
+          model. Even if the marginal effects are not in a large number, there
+          exist indicators that say that there is a problem in the way the
+          alimentation industry is producing. But we should not stay with just
+          this general diagnosis, this model is one of the first steps for the
+          identification of EDCs in public health. We need more robust
+          information so we can talk about causality. Authorities must now start
+          taking EDCs concentrations measurement in water corps, not only for
+          scientific study, but also for the security and sanitation of their
+          population. Although probably the results in health take time to be
+          visible, it is important to act now to avoid an increase in demand for
+          health and in consequence a saturation in medical services. A healthy
+          society produces wellness and development to a nation.
+        </p>
+        <h3 className="h3">References</h3>
+        <p className="reference">
+          [1] Kelly, M., Connolly, L. & Dean, M. (2020, 23 octubre). Public
+          Awareness and Risk Perceptions of Endocrine Disrupting Chemicals: A
+          Qualitative Study. International Journal of Environmental Research and
+          Public Health, 17(21), 7778. https://doi.org/10.3390/ijerph17217778
+        </p>
+        <p className="reference">
+          [2]INEGI. (2014). Cantidad de puntos de descarga de aguas residuales
+          municipales sin tratamiento (Número), Estados Unidos Mexicanos
+          [Database]. Banco de Indicadores. From
+          https://www.inegi.org.mx/app/indicadores/?t=265&ag=00#D265#D6200093527
+        </p>
+        <p className="reference">
+          [3]Gustavo Ronderos-Lara, J., Saldarriaga-Noreña, H., Guillermo
+          Reyes-Romero, P., Alberto Chávez-Almazán, L., Vergara-Sánchez, J.,
+          Alfonso Murillo-Tovar, M. & Torres-Segundo, C. (2021, 27 mayo).
+          Emerging Compounds in Mexico: Challenges for Their Identification and
+          Elimination in Wastewater. Emerging Contaminants.
+          https://doi.org/10.5772/intechopen.93909
+        </p>
+        <p className="reference">
+          [4]INEGI. (2017). Superficie cultivada a cielo abierto y producción de
+          cultivos anuales y perennes según disponibilidad del agua por cultivo
+          con representatividad en la muestra [Database]. Encuesta Nacional
+          Agropecuaria. From
+          https://www.inegi.org.mx/programas/ena/2017/#Tabulados
+        </p>
+        <p className="reference">
+          [5]INEGI. (2017).Porcentaje de unidades de producción con superficie
+          agrícola de riego por tipo de agua utilizada [Database]. Encuesta
+          Nacional Agropecuaria. From
+          https://www.inegi.org.mx/programas/ena/2017/#Tabulados
+        </p>
+        <p className="reference">
+          [6]INEGI. (2019).Porcentaje de unidades de producción con superficie
+          de riego por tipo de agua utilizada [Database]. Encuesta Nacional
+          Agropecuaria. From
+          https://www.inegi.org.mx/programas/ena/2019/#Tabulados
+        </p>
+        <p className="reference">
+          [7]INEGI. (2018). Agua. Cuéntame de México. INEGI. From:
+          https://cuentame.inegi.org.mx/territorio/agua/usos.aspx?tema=T
+          https://www.imta.gob.mx/biblioteca/libros_html/riego-drenaje/reuso-aguas-residuales.pdf
+        </p>
+        <p className="reference">
+          [8]Nacel Arcoiris 13:20:33 (s.f). PRESA LIBRE Regenerando el
+          ecosistema de Presa Madin. From
+          https://nacelarcoiris.org/proyectos/rescate-presa-madin/
+        </p>
+        <p className="reference">
+          [9] García, E. M. (2019). El agua residual como generadora del espacio
+          de la actividad agrícola en el Valle del Mezquital, Hidalgo, México.
+          Revista de Alimentación Contemporánea y Desarrollo Regional, 29(54).
+          https://doi.org/10.24836/es.v29i54.741
+        </p>
+        <p className="reference">
+          [10] Estrada, E. B.-, Mantilla, G., Mijaylova, P., Ramírez, N.,
+          Moeller, G. & Sánchez, M. (2013). Presencia y tratamiento de
+          compuestos disruptores endócrinos en aguas residuales de la Ciudad de
+          México empleando un biorreactor con membranas sumergidas. Ingeniería
+          Investigación y Tecnología, 14(2).
+          https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-77432013000200011
+        </p>
+        <p className="reference">
+          [11] Ley General de la Salud (7 de febrero de 1984)
+          https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf
+        </p>
+        <p className="reference">
+          [12] INICIATIVA QUE ADICIONA EL ARTÍCULO 269 DE LA LEY GENERAL DE
+          SALUD, SUSCRITA POR LAS DIPUTADAS JULIETA MACÍAS RÁBAGO E IRMA JUAN
+          CARLOS, DE LOS GRUPOS PARLAMENTARIOS DE MOVIMIENTO CIUDADANO Y MORENA
+          (27 de febrero de 2020)
+          http://sil.gobernacion.gob.mx/Archivos/Documentos/2020/02/asun_4009153_20200227_1582832039.pdf
+        </p>
+        <p className="reference">
+          [13] INICIATIVA QUE REFORMA LOS ARTÍCULOS 269 Y 421 BIS DE LA LEY
+          GENERAL DE SALUD, SUSCRITA POR EL DIPUTADO RAÚL GRACIA GUZMÁN E
+          INTEGRANTES DEL GRUPO PARLAMENTARIO DEL PAN (15 de octubre de
+          2019)http://sil.gobernacion.gob.mx/Archivos/Documentos/2019/10/asun_3936778_20191015_1571170363.pdf
+        </p>
+        <p className="reference">
+          [14] CON PUNTO DE ACUERDO, POR EL QUE SE EXHORTA A LA COMISIÓN FEDERAL
+          PARA LA PROTECCIÓN CONTRA RIESGOS SANITARIOS A REGULAR EL USO DE
+          PLÁSTICOS Y SUS DERIVADOS EN ENVASES DE ALIMENTOS Y A LA SECRETARÍA DE
+          SALUD A REALIZAR CAMPAÑAS DE CONCIENTIZACIÓN DE LA POBLACIÓN SOBRE LOS
+          RIESGOS SANITARIOS DE ESTAS SUSTANCIAS, A CARGO DE LA DIPUTADA SYLVANA
+          BELTRONES SÁNCHEZ, DEL GRUPO PARLAMENTARIO DEL PRI Y DEL DIPUTADO
+          JESÚS SESMA SUÁREZ, INTEGRANTE DEL GRUPO PARLAMENTARIO DEL PARTIDO
+          VERDE ECOLOGISTA DE MÉXICO (9 de mayo de 2017)
+          https://www.senado.gob.mx/64/gaceta_del_senado/documento/71742
+        </p>
+        <p className="reference">
+          [15] Diario Oficial de la Federación. (2012). Salud ambiental-Indices
+          biológicos de exposición para el personal ocupacionalmente expuesto a
+          sustancias químicas. ( NOM-047-SSA1-2011). From
+          https://www.dof.gob.mx/nota_detalle.php?codigo=5249877&fecha=06/06/2012#gsc.tab=0
+        </p>
+        <p className="reference">
+          [16] González, O. (2018). Día Nacional del Maíz en México.
+          Cndh.org.mx. Recuperado el 5 de octubre de 2022, de
+          https://www.cndh.org.mx/noticia/dia-nacional-del-maiz-en-mexico-0.
+        </p>
+        <p className="reference">
+          [17] Soto, J. (2020). Dar valor a las y los agricultores, también es
+          actuar por México. Greenpeace México. Retrieved 10 September 2022,
+          from
+          https://www.greenpeace.org/mexico/blog/9122/dar-valor-a-las-y-los-agricultores-tambien-es-actuar-por-mexico/.
+        </p>
+        <p className="reference">
+          [18] CONEVAL. (2020). Medición de pobreza 2016-2020. Coneval.org.mx.
+          Recuperado el 6 de septiembre de 2022, de
+          https://www.coneval.org.mx/Medicion/MP/Paginas/Pobreza_2020.aspx.
+        </p>
+        <p className="reference">
+          [19] Scott, J. (2007). Agricultural policy and rural: poverty in
+          Mexico. Mexico: Centro de Investigación y Docencia Económicas,
+          División de Economía. Recuperado de http://hdl.handle.net/11651/1152
+        </p>
+        <p className="reference">
+          [20] Merino Huerta, M. (2009). Los programas de subsidios al campo:
+          las razones y las sinrazones de una política mal diseñada. Mexico:
+          Centro de Investigación y Docencia Económicas, División de
+          Administración Pública. Recuperado de http://hdl.handle.net/11651/777
+        </p>
+        <p className="reference">
+          [21] Scott, J. (2009). The incidence of agricultural subsidies in
+          Mexico. Mexico: Centro de Investigación y Docencia Económicas,
+          División de Economía. Recuperado de http://hdl.handle.net/11651/1249
+        </p>
+        <p className="reference">
+          [22] Barquera, S., Rivera-Dommarco, J., & Gasca-García, A. (2001).
+          Políticas y programas de alimentación y nutrición en México. Salud
+          pública de México, 43(5), 464-477.
+        </p>
+        <p className="reference">
+          [23] CONEVAL. Glosario. Coneval.org.mx. Recuperado el 7 de septiembre
+          de 2022, de https://www.coneval.org.mx/Medicion/Paginas/Glosario.aspx
+        </p>
+        <p className="reference">
+          [24] CONEVAL. (2022). Líneas de pobreza por ingresos - InfoPobreza.
+          Sistemas.coneval.org.mx. Recuperado el 6 de septiembre de 2022, de
+          http://sistemas.coneval.org.mx/InfoPobreza/Pages/wfrLineaBienestar?pAnioInicio=2016&pTipoIndicador=0.
+        </p>
+        <p className="reference">
+          [25] Trujillo Murillo, Juan, Hernández Ortiz, Juan, & Martínez Damián,
+          Miguel Ángel. (2019). Disposición a pagar por productos orgánicos en
+          Texcoco, Estado de México. Revista mexicana de ciencias agrícolas,
+          10(7), 1685-1691. Epub December 4,
+          2020.https://doi.org/10.29312/remexca.v10i7.926
+        </p>
+        <p className="reference">
+          [26] Gobierno de México. (2021). Diabetes en México. gob.mx.
+          Recuperado el 11 de septiembre de 2022, de
+          https://www.gob.mx/promosalud/acciones-y-programas/diabetes-en-mexico-284509.
+        </p>
+        <p className="reference">
+          [27] Secretaría de Salud. (2022). En México, más de 30 millones de
+          personas padecen hipertensión arterial: Secretaría de Salud. gob.mx.
+          Recuperado el 11 de septiembre de 2022, de
+          https://www.gob.mx/salud/articulos/en-mexico-mas-de-30-millones-de-personas-padecen-hipertension-arterial-secretaria-de-salud.
+        </p>
+        <p className="reference">
+          [28] INEGI. (2020). Nota metodológica: Prevalencia de Obesidad,
+          Hipertensión y Diabetes para los Municipios de México 2018 (pp.
+          39-46). Mexico: INEGI. De,
+          https://www.inegi.org.mx/contenidos/investigacion/pohd/2018/doc/a_peq_2018_nota_met.pdf
+        </p>
+        <p className="reference">
+          [29] Universidad Autónoma Metropolitana. (2015). El síndrome
+          metabólico, un problema de salud pública tan grave como el cambio
+          climático. De,
+          https://www.comunicacionsocial.uam.mx/boletinesuam/050-15.html
+        </p>
+        <p className="reference">
+          [30] Senado de la República. (2017). Gaceta del Senado. De,
+          https://www.senado.gob.mx/64/gaceta_del_senado/documento/71742
+        </p>
+        <p className="reference">
+          [31] European Parliament and Council. (2017). Commission Delegated
+          Regulation (EU) 2017/2100. Brussels: Official Journal of the European
+          Union. De, https://eur-lex.europa.eu/eli/reg_del/2017/2100/oj
+        </p>
+        <h3 className="h3">Data Bases</h3>
+        <p className="reference">
+          CONEVAL. (2020). Bases de datos y programas de cálculo 2020
+          [Database]. Medición de la Pobreza.
+          https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_2016-2020.aspx{" "}
+        </p>
+        <p className="reference">
+          {" "}
+          INEGI. (2019). Sistema Nacional de Clasificación de Ocupaciones, 2019
+          SINCO (pp. 243-263). Mexico: INEGI. From
+          https://www.snieg.mx/DocumentacionPortal/Normatividad/vigente/sinco_2019.pdf
+        </p>
+        <p className="reference">
+          CONAGUA. (2020). Calidad del Agua Superficial 2012-2020 [Database].
+          Calidad del agua en México. De,
+          https://www.gob.mx/conagua/articulos/calidad-del-agua
+        </p>
+        <p className="reference">
+          CONEVAL. (2020). Concentrado indicadores de pobreza 2020 [Database].
+          Pobreza a nivel municipio 2010-2020. De,
+          https://www.coneval.org.mx/Medicion/Paginas/Pobreza-municipio-2010-2020.aspx
+        </p>
+        <p className="reference">
+          {" "}
+          INEGI. (2017). Producción de agricultura protegida según producción
+          vendida y comprador o destinatario por entidad federativa, municipio y
+          cultivo principal [Database]. Encuesta Nacional Agropecuaria. De,
+          https://www.inegi.org.mx/programas/ena/2017/#Tabulados
+        </p>
+        <p className="reference">
+          INEGI. (2019). Sistema Automatizado de Información Censal (SAIC)
+          [Database]. Censos económicos 2019. De,
+          https://www.inegi.org.mx/programas/ce/2019/#Tabulados
+        </p>
+        <p className="reference">
+          Secretaría de Salud. (2018). Enfermedades crónicas no transmisibles en
+          el adulto y en el anciano 2010-2018 [Database]. Servicios Otorgados.
+          De,
+          http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_sis_gobmx.html
+        </p>
+        <p className="reference">
+          Wee, S., & Aris, A. (2019). Occurrence and public-perceived risk of
+          endocrine disrupting compounds in drinking water. Npj Clean Water,
+          2(1). https://doi.org/10.1038/s41545-018-0029-3
+        </p>
+      </div>
+      
       <ModalGlass modalId="choosing_our_problem_modal">
         <div className="text-white">
           <h3 className="h3">Choosing our problem </h3>
