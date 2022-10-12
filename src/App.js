@@ -25,6 +25,7 @@ import SoftwarePage from "./pages/engineering/software_biosensor";
 import ModelPage from "./pages/engineering/model_degradacion";
 import DesignPage from "./pages/engineering/design";
 import ImplementationPage from "./pages/engineering/implementation";
+import ResultsPage from "./pages/engineering/results";
 
 export default function App() {
   return (
