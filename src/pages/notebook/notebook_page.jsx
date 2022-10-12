@@ -2,16 +2,16 @@ import notebookActivities from "./notebook_activities";
 const _ = require("lodash");
 
 const months = {
-  1: "JANUARY",
-  2: "FEBRUARY",
-  3: "MARCH",
-  4: "APRIL",
-  5: "MAY",
-  6: "JUNE",
-  7: "JULY",
-  8: "AUGUST",
-  9: "SEPTEMBER",
-  10: "OCTOBER",
+  0: "JANUARY",
+  1: "FEBRUARY",
+  2: "MARCH",
+  3: "APRIL",
+  4: "MAY",
+  5: "JUNE",
+  6: "JULY",
+  7: "AUGUST",
+  8: "SEPTEMBER",
+  9: "OCTOBER",
 };
 
 export default function NotebookPage() {
@@ -22,10 +22,20 @@ export default function NotebookPage() {
   for (const key in notebook_activities[0]["data"]) {
     data.push(notebook_activities[0]["data"][key]);
   }
-  console.log(data);
+  var groupKey = 0;
+  var groups = data.reduce(function (r, o) {
+    var m = parseInt(o.date.split("-")[1]);
+    r[m]
+      ? r[m].data.push(o)
+      : (r[m] = { group: String(groupKey++), data: [o] });
+    return r;
+  }, {});
 
-  // var groupByMonth  = _.groupBy(data, ({ date }) => new Date(date).getMonth());
-  var groupByMonth = [];
+  var result = Object.keys(groups).map(function (k) {
+    return groups[k];
+  });
+
+  var groupByMonth = result;
   return (
     <div
       className="hero pt-20"
@@ -56,7 +66,7 @@ export default function NotebookPage() {
             Download Calendar as HTMl
           </a>
         </div>
-        {groupByMonth.map(function (it) {
+        {groupByMonth.map(function (value, key) {
           return (
             <div>
               <div
@@ -65,30 +75,32 @@ export default function NotebookPage() {
               >
                 <h1 className="text-6xl text-white content-top">
                   {" "}
-                  {months[it.group]}
+                  {months[key]}
                 </h1>
               </div>
               <div style={{ display: "flex", flexWrap: "wrap" }}>
-                {it.data.map(function (data) {
-                  return (
-                    <div className="card glass calendar-card relative inline-block content-center rounded-md m-4 p-2 z-10 backdrop-blur-lg from-[#fff2] to-[#fff1] bg-gradient-from-br bg-gradient-to-tl">
-                      <label
-                        className="block text-white text-sm text-start"
-                        style={{ zIndex: 2 }}
-                      >
-                        {data.activityName}
-                      </label>
-                      <div
-                        className="inline-block text-xl absolute p-1 -z-10"
-                        style={{ bottom: 0, right: 0 }}
-                      >
-                        <p className="text-white opacity-30">
-                          {data.date.slice(-2)}
-                        </p>
+                {
+                value
+                  .data.map(function (data) {
+                    return (
+                      <div className="card glass calendar-card relative inline-block content-center rounded-md m-4 p-2 z-10 backdrop-blur-lg from-[#fff2] to-[#fff1] bg-gradient-from-br bg-gradient-to-tl">
+                        <label
+                          className="block text-white text-sm text-start"
+                          style={{ zIndex: 2 }}
+                        >
+                          {data.activityName}
+                        </label>
+                        <div
+                          className="inline-block text-xl absolute p-1 -z-10"
+                          style={{ bottom: 0, right: 0 }}
+                        >
+                          <p className="text-white opacity-30">
+                            {data.date.slice(-2)}
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                  );
-                })}
+                    );
+                  })}
               </div>
             </div>
           );
