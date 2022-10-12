@@ -237,6 +237,47 @@ export default function HumanPracticesPage() {
           shape="rect"
         />
       </map>
+      <div
+        className="human_practices_info max-w-4xl m-auto p-8 rounded-md text-white"
+        style={{ backgroundColor: "rgba(215, 1, 99,.5)" }}
+      >
+        <h3 className="h3">Mexican society and our problem </h3>
+        <p className="p">
+          {" "}
+          According to the obtained results of the survey, the range of ages is
+          between 13 and 73 years old, where the mean is 31 years old, although
+          the range with more frequency is from 13-23 years old, with 142
+          responses. On the other hand, the educational level of this sample is
+          made up mostly of people with a Bachelor’s degree (141 responses),
+          followed by High School degree (69 responses), Postgraduate (30
+          responses) and Middle School students (3 responses).
+        </p>
+        <p className="p">
+          To find out how aware people are about the problem, they were asked a
+          series of questions about general knowledge about plastics,
+          microplastics and EDCs, from which it can be concluded that the
+          majority of people had no previous knowledge. About the micro plastics
+          and EDCs, 70.1% of the sample had no awareness about our ingestion of
+          approximately 50,000 plastic particles per year. 64.2% of the
+          participants have never heard about EDCs.
+        </p>
+        <img
+          src="https://static.igem.wiki/teams/4260/wiki/imagen/project/biosensor/project-bio-digrama-2.png"
+          alt="Diagrama"
+          className="figure"
+        />
+        <p className="p">
+          Talking about the consumption of fruits and vegetables habits, 63.8%
+          consume these products 5 or more times per week and 67.1% of the
+          participants buy in local markets, 32.1% in supermarkets and the rest
+          grow what they consume. Even though most of the people consume fruits
+          and vegetables with high frequency, most of them do not know from
+          where the water with which their products are irrigated comes from,
+          despite considering that the quality of these (in terms of sanitation)
+          is good and that the water quality in their community is regular.{" "}
+        </p>
+      </div>
+
       <ModalGlass modalId="choosing_our_problem_modal">
         <div className="text-white">
           <h3 className="h3">Choosing our problem </h3>
@@ -549,48 +590,106 @@ export default function HumanPracticesPage() {
       <ModalGlass modalId="edson">
         <div className="text-white">
           <h3 className="h3">
-          Dr. Edson Estrada talked us about the presence of EDCs in the drain
+            Dr. Edson Estrada talked us about the presence of EDCs in the drain
           </h3>
           <p className="p">
-          As part of our research, we searched the Mexican scientific literature for the different studies that had been carried out around the detection of EDCs. It was then that we came across the article by PhD. Edson Estrada entitled "Presence and treatment of endocrine disrupting compounds in wastewater from Mexico City using a submerged membrane bioreactor", whom we contacted and interviewed to learn more about his research and the topic.
-          <br></br>
-          He tells us that the most common EDCs found in wastewater are discarded drugs such as metformin and carbamazepine and also due to human excretions. In his work he manages to report the concentration of 30 to 400 ng / L of EDCs in treated water [10]. On the other hand, he also explains that endocrine disruptors do not volatilize, but rather remain on the surface of materials in an inactive form where it forms conjugates of sulfate and glucuronide conjugates, and this is also the way in which they are secreted. At the moment that the EDCs reach an organism, it returns to its active form and begins to execute all these failures in the system due to its disruptive function.
-          <br></br>
-          On the other hand, he told us that the removal of EDCs in treatment plants is common in terms of research development and new technologies of the National Water Commission (CONAGUA), but it is not common for plants to implement it because new technologies are still expensive and EDCs are not regulated.
-          <br></br>
-          Finally, PhD. Edson concluded with the importance of youth in solving an emerging problem, considering our project a comprehensive multidisciplinary proposal.
+            As part of our research, we searched the Mexican scientific
+            literature for the different studies that had been carried out
+            around the detection of EDCs. It was then that we came across the
+            article by PhD. Edson Estrada entitled "Presence and treatment of
+            endocrine disrupting compounds in wastewater from Mexico City using
+            a submerged membrane bioreactor", whom we contacted and interviewed
+            to learn more about his research and the topic.
+            <br></br>
+            He tells us that the most common EDCs found in wastewater are
+            discarded drugs such as metformin and carbamazepine and also due to
+            human excretions. In his work he manages to report the concentration
+            of 30 to 400 ng / L of EDCs in treated water [10]. On the other
+            hand, he also explains that endocrine disruptors do not volatilize,
+            but rather remain on the surface of materials in an inactive form
+            where it forms conjugates of sulfate and glucuronide conjugates, and
+            this is also the way in which they are secreted. At the moment that
+            the EDCs reach an organism, it returns to its active form and begins
+            to execute all these failures in the system due to its disruptive
+            function.
+            <br></br>
+            On the other hand, he told us that the removal of EDCs in treatment
+            plants is common in terms of research development and new
+            technologies of the National Water Commission (CONAGUA), but it is
+            not common for plants to implement it because new technologies are
+            still expensive and EDCs are not regulated.
+            <br></br>
+            Finally, PhD. Edson concluded with the importance of youth in
+            solving an emerging problem, considering our project a comprehensive
+            multidisciplinary proposal.
           </p>
         </div>
       </ModalGlass>
       <ModalGlass modalId="experts">
         <div className="text-white">
           <h3 className="h3">
-          We interviewed experts to learn about the effect of EDCs on prostate cancer
+            We interviewed experts to learn about the effect of EDCs on prostate
+            cancer
           </h3>
           <p className="p">
-          A dynamic interview was held with doctoral candidate Sergio Alberto Cortez and his advisor Dr. Mauricio Rodríguez, who are evaluating the effect of exposure to low concentrations of bisphenols on prostate cancer cell lines. They found that the Bisphenol A and its analogs F and S have a transcriptional effect on the activation of the DNA damage repair mechanism and cell cycle regulation in LNCaP and PC-3 cell lines, as well as the presence of genotoxic damage.
-          <br></br>
-          Mainly in the conversation it was learned that EDCs are metabolized in the kidneys and discarded in the urine, however, there are small concentrations that remain inside the body causing different conditions at the cellular level. In the same way, they gave us support in the idea of ​​implementing our biosensor to detect EDCs in urine or some other biological matrix, such as the detection limits found between 0.2 to 0.5 nM for the bisphenol quantification, likewise, they proposed to us the idea of ​​making comparisons in the concentration of EDCs of people exposed to bodies of water with the concentration present in them.
+            A dynamic interview was held with doctoral candidate Sergio Alberto
+            Cortez and his advisor Dr. Mauricio Rodríguez, who are evaluating
+            the effect of exposure to low concentrations of bisphenols on
+            prostate cancer cell lines. They found that the Bisphenol A and its
+            analogs F and S have a transcriptional effect on the activation of
+            the DNA damage repair mechanism and cell cycle regulation in LNCaP
+            and PC-3 cell lines, as well as the presence of genotoxic damage.
+            <br></br>
+            Mainly in the conversation it was learned that EDCs are metabolized
+            in the kidneys and discarded in the urine, however, there are small
+            concentrations that remain inside the body causing different
+            conditions at the cellular level. In the same way, they gave us
+            support in the idea of ​​implementing our biosensor to detect EDCs
+            in urine or some other biological matrix, such as the detection
+            limits found between 0.2 to 0.5 nM for the bisphenol quantification,
+            likewise, they proposed to us the idea of ​​making comparisons in
+            the concentration of EDCs of people exposed to bodies of water with
+            the concentration present in them.
           </p>
         </div>
       </ModalGlass>
       <ModalGlass modalId="concludeddeveloping">
         <div className="text-white">
           <h3 className="h3">
-          We conclude by developing a health model that there is a relationship between water quality and diseases associated with EDCs that affect the population
+            We conclude by developing a health model that there is a
+            relationship between water quality and diseases associated with EDCs
+            that affect the population
           </h3>
           <p className="p">
-          After a deep inspection of the stakeholders, we decided to go beyond the objectives of Human Practices. Therefore, we chose to develop a model that could measure the impact of our project on society. One of the direct approaches that we identified was from health, for which we propose a statistical-mathematical model in which we include variables of production, water quality and health by municipality. Thanks to this analysis we were able to find a relationship between the variables in question, which indicates the marginal effects of bad water quality and agricultural production on health (more information).
+            After a deep inspection of the stakeholders, we decided to go beyond
+            the objectives of Human Practices. Therefore, we chose to develop a
+            model that could measure the impact of our project on society. One
+            of the direct approaches that we identified was from health, for
+            which we propose a statistical-mathematical model in which we
+            include variables of production, water quality and health by
+            municipality. Thanks to this analysis we were able to find a
+            relationship between the variables in question, which indicates the
+            marginal effects of bad water quality and agricultural production on
+            health (more information).
           </p>
         </div>
       </ModalGlass>
       <ModalGlass modalId="oscar">
         <div className="text-white">
           <h3 className="h3">
-          We received help from agronomist Oscar García for the construction of a rack to study the effect of EDCs on lettuce.
+            We received help from agronomist Oscar García for the construction
+            of a rack to study the effect of EDCs on lettuce.
           </h3>
           <p className="p">
-          In order to study the effect that EDCs have on agronomic products, we designed and built a rack to grow lettuce (more information) [link a degradación]. For this purpose, we received support from agronomist Oscar García Díaz, which consisted of a visit to his ranch where we learned the importance of soil improvement for cultivation through worm composting. In addition, he donated soil and compost to grow lettuce in the rack, and also taught us the basic requirements for growing lettuce, such as the amount of water they require. 
+            In order to study the effect that EDCs have on agronomic products,
+            we designed and built a rack to grow lettuce (more information)
+            [link a degradación]. For this purpose, we received support from
+            agronomist Oscar García Díaz, which consisted of a visit to his
+            ranch where we learned the importance of soil improvement for
+            cultivation through worm composting. In addition, he donated soil
+            and compost to grow lettuce in the rack, and also taught us the
+            basic requirements for growing lettuce, such as the amount of water
+            they require.
           </p>
         </div>
       </ModalGlass>
