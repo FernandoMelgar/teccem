@@ -20,7 +20,7 @@ import EducationPage from "./pages/social_impact/education_page";
 import HardwarePage from "./pages/engineering/hardware_biosensor";
 import ContributionsPage from "./pages/team/contributions_page";
 import Communication from "./pages/communication/communication";
-import { Divider } from "react-daisyui";
+import ProofOfConceptPage from "./pages/proof/proof_of_concept_page";
 
 export default function App() {
   return (
@@ -103,6 +103,16 @@ export default function App() {
             <div>
               <Navbar />
               <EngineeringPage />
+              <IgemFooter />
+            </div>
+          }
+        />
+        <Route
+          path="/teccem/proof-of-concept"
+          element={
+            <div>
+              <Navbar />
+              <ProofOfConceptPage />
               <IgemFooter />
             </div>
           }
