@@ -8,3 +8,10 @@
   justify-content: space-between;
   align-content: center;*/
 }
+
+.safetyLink {
+  color: white;
+  display: block;
+  margin: 10px;
+  font: Montserrat;
+}

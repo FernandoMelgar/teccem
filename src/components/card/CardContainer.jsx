@@ -32,8 +32,17 @@ export default function CardContainer() {
             ></Card>
             <Modal modalId={item.title} style={{ Position: "absolute" }}>
               <h2 className="font-bold text-2xl">{item.title}</h2>
-              <a href="https://responsibility.igem.org/safety-forms/project-safety">
+              <a
+                href="https://responsibility.igem.org/safety-forms/project-safety"
+                className="safetyLink"
+              >
                 Download Safety Form
+              </a>
+              <a
+                href="https://docs.google.com/document/d/1FQAko7K4gQKo3AhNtn7c8QfbMMTPtW0YFEp1XLLIyYI/edit"
+                className="safetyLink"
+              >
+                Open Safety and Laboratory
               </a>
             </Modal>
           </label>
