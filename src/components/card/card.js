@@ -18,15 +18,9 @@ function Card(props) {
 
       <div className="button">
         <button>
-          <label htmlFor={props.title}>
-            <a>Learn more!</a>
-          </label>
+          <a>Learn more!</a>
         </button>
       </div>
-      <Modal modalId={props.title}>
-        <h2 className="font-bold text-2xl">{props.title}</h2>
-        <p className="p">{props.description}</p>
-      </Modal>
     </div>
   );
 }

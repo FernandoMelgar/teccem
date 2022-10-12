@@ -38,6 +38,7 @@ export default function LaboratoryPage() {
               divided: Detection (biosensor), Degradation and Safety Project; in
               addition to information about the parts we used.
             </p>
+
             <CardContainer />
             <div className="px-32 w-full flex justify-between">
               <Link to="/teccem/description">
