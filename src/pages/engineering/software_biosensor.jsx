@@ -9,7 +9,7 @@ export default function SoftwarePage() {
               Overview
           </h2>
           <p className="p">
-            The QCM (Quartz Crystal Microbalance) won’t work if a voltage signal with a particular frequency is not generated. If there is no controller, the signal cannot be generated, also without it there would not be a way of receiving the information from the QCM. After the signal is received it needs to be filtered from any noise it could carry (this is called signal processing). And finally, a way for the user to visualize the obtained information is needed, as well as to control the system. All of these require programming, and for each a software solution was developed in order to make the Biosensor work properly. 
+            The QCM (Quartz Crystal Microbalance) won't work if a voltage signal with a particular frequency is not generated. If there is no controller, the signal cannot be generated, also without it there would not be a way of receiving the information from the QCM. After the signal is received it needs to be filtered from any noise it could carry (this is called signal processing). And finally, a way for the user to visualize the obtained information is needed, as well as to control the system. All of these require programming, and for each a software solution was developed in order to make the Biosensor work properly. 
 This resulted in a Controller Network which can be represented through the following diagram:
         </p>
         </div>
