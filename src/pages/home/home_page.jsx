@@ -2,15 +2,17 @@ import * as React from "react";
 import ArrowDownSvg from "./components/arrow_down_svg";
 import { PageWithBackgroundVideo } from "../../components/page";
 import { Link } from "react-router-dom";
+import bg1 from "./bg/Home_bg1.mp4";
+import bg2 from "./bg/Home_bg2.mp4";
+import bg3 from "./bg/Home_bg3.mp4";
+import bg4 from "./bg/Homebg4.mp4";
+import bg5 from "./bg/Homebg5.mp4";
+import bg6 from "./bg/Homebg6.mp4";
+
 export default function HomePage() {
   return (
     <div>
-      <PageWithBackgroundVideo
-        className="hydro-defense-section"
-        gifURL={
-          "https://static.igem.wiki/teams/4260/wiki/imagen/home/home-page/homepage-1.gif"
-        }
-      >
+      <PageWithBackgroundVideo className="hydro-defense-section" videoUrl={bg1}>
         <div className="h-full w-full p-32 text-center flex flex-col justify-between">
           <div>
             <h1 className="text-8xl text-white"> HYDRO DEFENSE </h1>
@@ -24,11 +26,7 @@ export default function HomePage() {
           </div>
         </div>
       </PageWithBackgroundVideo>
-      <PageWithBackgroundVideo
-        gifURL={
-          "https://static.igem.wiki/teams/4260/wiki/imagen/home/home-page/homepage-2.gif"
-        }
-      >
+      <PageWithBackgroundVideo videoUrl={bg2}>
         <div className="h-full w-full p-16">
           <div className="flex flex-col content-center justify-center text-center">
             <h2 className="text-3xl text-white cano ">Endocrine Disrupting</h2>
@@ -56,11 +54,7 @@ export default function HomePage() {
           </div>
         </div>
       </PageWithBackgroundVideo>
-      <PageWithBackgroundVideo
-        gifURL={
-          "https://static.igem.wiki/teams/4260/wiki/imagen/home/home-page/homepage-3.gif"
-        }
-      >
+      <PageWithBackgroundVideo videoUrl={bg3}>
         <div className="h-full w-full flex flex-col justify-between">
           <div className="h-auto w-auto p-16 flex justify-between">
             <h1
@@ -141,11 +135,7 @@ export default function HomePage() {
         </div>
       </PageWithBackgroundVideo>
 
-      <PageWithBackgroundVideo
-        gifURL={
-          "https://static.igem.wiki/teams/4260/wiki/imagen/home/home-page/homepage-4.gif"
-        }
-      >
+      <PageWithBackgroundVideo videoUrl={bg4}>
         <div className="h-full w-full flex flex-col justify-between py-32 pr-32">
           <div className="h-full w-full flex justify-end self-end">
             <div className="flex flex-col justify-between">
@@ -196,11 +186,7 @@ export default function HomePage() {
         </div>
       </PageWithBackgroundVideo>
 
-      <PageWithBackgroundVideo
-        gifURL={
-          "https://static.igem.wiki/teams/4260/wiki/imagen/home/home-page/homepage-5.gif"
-        }
-      >
+      <PageWithBackgroundVideo videoUrl={bg5}>
         <div className="py-52 h-full w-full flex flex-col justify-between items-center">
           <h2 className="block cano text-7xl w-3/4 p-10 text-white text-center">
             OUR SECOND MISSION <font color="skyblue">& SOLUTION</font>s
@@ -228,11 +214,7 @@ export default function HomePage() {
           </div>
         </div>
       </PageWithBackgroundVideo>
-      <PageWithBackgroundVideo
-        gifURL={
-          "https://static.igem.wiki/teams/4260/wiki/imagen/home/home-page/homepage-6.gif"
-        }
-      >
+      <PageWithBackgroundVideo videoUrl={bg6}>
         <div className="p-32 h-full w-full flex flex-col justify-between items-center">
           <div className="h-auto w-auto p-16 flex justify-center self-center">
             <h2 className="text-5xl cano p-10 text-white">
