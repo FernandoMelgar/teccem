@@ -1,6 +1,7 @@
 import CardContainer from "../../components/card/CardContainer";
 import "./laboratory.css";
 import { Link } from "react-router-dom";
+import Modal from "../../components/modal";
 
 export default function LaboratoryPage() {
   return (

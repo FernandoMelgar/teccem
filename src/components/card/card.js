@@ -1,4 +1,5 @@
 import "./Card.css";
+import Modal from "../modal";
 
 function Card(props) {
   return (
@@ -17,9 +18,15 @@ function Card(props) {
 
       <div className="button">
         <button>
-          <a>Learn more!</a>
+          <label htmlFor={props.title}>
+            <a>Learn more!</a>
+          </label>
         </button>
       </div>
+      <Modal modalId={props.title}>
+        <h2 className="font-bold text-2xl">{props.title}</h2>
+        <p className="p">{props.description}</p>
+      </Modal>
     </div>
   );
 }
