@@ -1092,7 +1092,7 @@ export default function HumanPracticesPage() {
           2(1). https://doi.org/10.1038/s41545-018-0029-3
         </p>
       </div>
-      
+
       <ModalGlass modalId="choosing_our_problem_modal">
         <div className="text-white">
           <h3 className="h3">Choosing our problem </h3>

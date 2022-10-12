@@ -1,100 +1,31 @@
-import notebook_activities from "./notebook_activities";
+import notebookActivities from "./notebook_activities";
+const _ = require("lodash");
 
-const months = [
-  {
-    month: "JANUARY",
-    data: [
-      {
-        day: "21",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy teorem Ipsum is simply dummy text of theorem Ipsum is simply dummy text of theorem Ipsum is simply dummy text of theorem Ipsum is simply dummy text of theorem Ipsum is simply dummy text of theorem Ipsum is simply dummy text of thext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-      {
-        day: "24",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-      {
-        day: "27",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-      {
-        day: "29",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-      {
-        day: "30",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-      {
-        day: "30",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-
-      {
-        day: "30",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-
-      {
-        day: "30",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-
-      {
-        day: "30",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-    ],
-  },
-  {
-    month: "FEBRUARY",
-    data: [
-      {
-        day: "1",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-      {
-        day: "17",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-      {
-        day: "15",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-      {
-        day: "26",
-        month: "02",
-        year: "2022",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      },
-    ],
-  },
-];
+const months = {
+  1: "JANUARY",
+  2: "FEBRUARY",
+  3: "MARCH",
+  4: "APRIL",
+  5: "MAY",
+  6: "JUNE",
+  7: "JULY",
+  8: "AUGUST",
+  9: "SEPTEMBER",
+  10: "OCTOBER",
+};
 
 export default function NotebookPage() {
+  const notebook_activities = notebookActivities();
+
+  const data = [];
+
+  for (const key in notebook_activities[0]["data"]) {
+    data.push(notebook_activities[0]["data"][key]);
+  }
+  console.log(data);
+
+  // var groupByMonth  = _.groupBy(data, ({ date }) => new Date(date).getMonth());
+  var groupByMonth = [];
   return (
     <div
       className="hero pt-20"
@@ -125,30 +56,35 @@ export default function NotebookPage() {
             Download Calendar as HTMl
           </a>
         </div>
-        {months.map(function (it) {
+        {groupByMonth.map(function (it) {
           return (
             <div>
               <div
                 className="block p-2 rounded-sm mt-4 mb-2"
                 style={{ backgroundColor: "rgba(75,230,255,.5)" }}
               >
-                <h1 className="text-6xl text-white content-top"> {it.month}</h1>
+                <h1 className="text-6xl text-white content-top">
+                  {" "}
+                  {months[it.group]}
+                </h1>
               </div>
               <div style={{ display: "flex", flexWrap: "wrap" }}>
                 {it.data.map(function (data) {
                   return (
                     <div className="card glass calendar-card relative inline-block content-center rounded-md m-4 p-2 z-10 backdrop-blur-lg from-[#fff2] to-[#fff1] bg-gradient-from-br bg-gradient-to-tl">
-                      <a
+                      <label
                         className="block text-white text-sm text-start"
                         style={{ zIndex: 2 }}
                       >
-                        {data.text}
-                      </a>
+                        {data.activityName}
+                      </label>
                       <div
-                        className="inline-block text-9xl absolute p-1 -z-10"
+                        className="inline-block text-xl absolute p-1 -z-10"
                         style={{ bottom: 0, right: 0 }}
                       >
-                        <p className="text-white opacity-30">{data.day}</p>
+                        <p className="text-white opacity-30">
+                          {data.date.slice(-2)}
+                        </p>
                       </div>
                     </div>
                   );
